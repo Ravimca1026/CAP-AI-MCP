@@ -1,0 +1,205 @@
+1. Positive Tests
+
+These should return the expected Work Order data.
+
+Basic
+Show all work orders
+Show work orders
+List all work orders
+Get all work orders
+Find work orders
+Search work orders
+Status
+Show open work orders
+Show closed work orders
+Show in progress work orders
+How many open work orders are there?
+Count closed work orders
+Priority
+Show high priority work orders
+Show medium priority work orders
+Show low priority work orders
+Show urgent work orders
+Show critical work orders
+Category
+Show mechanical work orders
+Show electrical work orders
+Show plumbing work orders
+Show HVAC work orders
+Show air conditioning work orders
+Show IT work orders
+Technician
+Show work orders assigned to TECH01
+Show work orders assigned to TECH02
+Show work orders assigned to TECH03
+Show work orders assigned to TECH04
+Show work orders assigned to TECH05
+Search
+Find motor work orders
+Find pump work orders
+Find sensor work orders
+Find network work orders
+Find printer work orders
+Find temperature work orders
+Date
+Show overdue work orders
+Find past due work orders
+Show work orders due soon
+Find work orders due in 3 days
+Find work orders due within 7 days
+Sorting
+Show latest work orders
+Show newest work orders
+Show oldest work orders
+Show work orders by due date ascending
+Show work orders by due date descending
+Top N
+Show top 5 work orders
+Show top 10 work orders
+Show latest 5 work orders
+Show first 5 work orders
+Combined
+Show open high priority work orders
+Show open electrical work orders
+Show high priority mechanical work orders
+Show open high priority electrical work orders
+Show high priority work orders due in 3 days
+Show open mechanical work orders due within 5 days
+Show TECH01 high priority work orders
+2. Negative Tests
+
+These test how the agent handles invalid, unsupported, or meaningless requests.
+
+Empty / invalid
+""
+Give me something
+Hello
+Test
+XYZ
+ABC123
+Non-existing data
+Find work orders for TECH99
+Show nuclear work orders
+Show automotive work orders
+Find rocket work orders
+Show priority SUPER_HIGH
+Find work order XYZ999
+Unsupported status
+Show pending work orders
+Show cancelled work orders
+Show rejected work orders
+Show completed work orders
+Unsupported category
+Show finance work orders
+Show HR work orders
+Show security work orders
+Invalid dates
+Find work orders due in abc days
+Find work orders due in -5 days
+Find work orders due within abc days
+Find work orders due yesterday
+Invalid sorting
+Sort work orders by salary
+Sort work orders by customer
+Sort work orders randomly
+Unrelated questions
+What is the weather today?
+What is SAP?
+Who is the president of India?
+Calculate 10 + 20
+Show me employee information
+
+Expected behavior: the agent should not invent Work Order data and should respond appropriately when the request is outside the supported functionality.
+
+3. Edge Cases
+
+These are important for testing the robustness of your CAP service.
+
+Case sensitivity
+SHOW OPEN WORK ORDERS
+Show Open Work Orders
+show open work orders
+ShOw HiGh PrIoRiTy WoRk OrDeRs
+Extra spaces
+Show open work orders
+Find motor work orders
+Show all work orders
+Singular / plural
+Find a work order
+Find work order
+Find work orders
+Show an order
+Show orders
+Hyphen variations
+Show high-priority work orders
+Show high priority work orders
+Show in-progress work orders
+Show in progress work orders
+Large TOP N
+Show top 100 work orders
+Show top 1000 work orders
+Show first 9999 work orders
+Zero / negative TOP N
+Show top 0 work orders
+Show top -5 work orders
+Date boundaries
+Find work orders due in 0 days
+Find work orders due in 1 day
+Find work orders due within 0 days
+Find work orders due within 1 day
+Find work orders due within 30 days
+Multiple conditions
+Show open high priority IT work orders
+Show open medium priority electrical work orders
+Show low priority mechanical work orders assigned to TECH01
+Show high priority HVAC work orders assigned to TECH04
+Find TECH01 work orders due within 7 days
+Search text
+Find "motor"
+Find "water pump"
+Find "network connection"
+Search for "temperature sensor"
+Find work orders about motor failure
+Count
+How many work orders?
+How many open work orders?
+Count high priority work orders
+What is the number of IT work orders?
+How many high priority electrical work orders are there?
+4. MCP / Joule Demo Questions
+
+These are the best questions for demonstrating the complete flow:
+
+User → Joule Agent → MCP Tool → CAP Service → Database → Response
+
+Basic MCP demonstration
+Show all work orders.
+Find open work orders.
+Show high priority work orders.
+Show work orders assigned to TECH01.
+Find overdue work orders.
+Business-oriented questions
+Which high priority work orders need attention?
+Which work orders are due in the next 3 days?
+Show open high priority work orders.
+Which electrical work orders are open?
+Which work orders are assigned to TECH01?
+Query + analysis style
+How many high priority work orders are there?
+How many open work orders are there?
+Which category has the work orders due soon?
+Show the latest 5 work orders.
+Show high priority work orders ordered by due date.
+Strong Joule demo scenario
+
+You can demonstrate a conversation like:
+
+User: Show all open work orders.
+
+User: Which of them are high priority?
+
+User: Which high priority ones are due within 7 days?
+
+User: Which technician is assigned to them?
+
+User: How many are there?

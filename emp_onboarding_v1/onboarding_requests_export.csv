@@ -1,0 +1,7 @@
+ID,employeeName,personalEmail,department,role,startDate,status,hrManagerNote,itAssetsNote,deptHeadNote,processInstanceId,laptopRequired,accessCardRequired,createdAt,createdBy,modifiedAt,modifiedBy
+11f53878-3fc7-4ac8-ae38-10caf49ef7b3,Raghu,raghu@co.in,IT,Developer,2026-07-31,Approved,Request approve,,,,true,true,2026-07-29T13:47:45.913Z,anonymous,2026-07-29T13:49:21.609Z,anonymous
+209cf84c-5c96-4c4a-9952-69ac6809610d,Test case,test@co.in,IT,Developer,2026-07-31,Approved,,,,,false,false,2026-07-29T13:52:26.781Z,anonymous,2026-07-29T13:52:31.619Z,anonymous
+584e6aae-b93a-4289-8ba8-121b5a2de8aa,Test,test@co.in,IT,Developer,2026-07-31,Rejected,Reject,,,,true,false,2026-07-29T13:50:59.056Z,anonymous,2026-07-29T13:51:36.086Z,anonymous
+67cefccc-4885-4c4d-8e15-6f131d0ba39a,Hari,hari@co.in,IT,Sr Developer,2026-07-31,Approved,,,,,false,false,2026-07-29T13:26:09.436Z,anonymous,2026-07-29T13:26:16.024Z,anonymous
+76003c8b-94d5-4fd0-9829-0b48603515f0,Navaneetha,nava@co.in,It,Developer,2026-07-31,Approved,Request Approved,,,,true,false,2026-07-29T12:03:30.381Z,anonymous,2026-07-29T12:04:17.217Z,anonymous
+d551188a-4f1a-4900-86d1-64ab586ecc04,Ram,ram@co.in,IT,Developer,2026-07-31,Approved,Request  approved,,,,false,true,2026-07-29T08:35:24.233Z,anonymous,2026-07-29T08:36:10.223Z,anonymous

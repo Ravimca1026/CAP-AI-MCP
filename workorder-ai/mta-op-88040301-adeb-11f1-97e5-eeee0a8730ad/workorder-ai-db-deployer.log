@@ -1,0 +1,486 @@
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:01.058637] Updated app with guid b6a8c635-8387-4f8d-b420-3a2ae6751e3c ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:01.151012] Updating process: "web" (STDOUT, API)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:10.217298] Uploading app package for app with guid b6a8c635-8387-4f8d-b420-3a2ae6751e3c (STDOUT, API)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:10.394022] Updated app with guid b6a8c635-8387-4f8d-b420-3a2ae6751e3c ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:20.367903] Creating build for app with guid b6a8c635-8387-4f8d-b420-3a2ae6751e3c (STDOUT, API)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:20.872971] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:20.913850] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:20.913916] Cell 937f755a-b90f-4c75-9860-2b1081c3ed98 creating container for instance 17cc0483-f9da-4c51-83ee-1a42e0ca12f2 (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:21.710604] Security group rules were updated (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:21.809866] Cell 937f755a-b90f-4c75-9860-2b1081c3ed98 successfully created container for instance 17cc0483-f9da-4c51-83ee-1a42e0ca12f2 (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:22.628558] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:22.628575] Downloading app package... (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:22.686565] Downloaded build artifacts cache (214B) (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:22.845842] Downloaded app package (2.3M) (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:22.930097] -----> Nodejs Buildpack version 1.9.3 (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:23.021834] -----> Bootstrapping python (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:23.021858] -----> Installing python 3.13.14 (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:23.021902] Copy [/tmp/buildpacks/336fb825d4d72bff/dependencies/4b4266a2ff36730aef37b88b668ca327/python_3.13.14_linux_x64_cflinuxfs4_b80d4954.tgz] (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:26.498482] -----> Installing binaries (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:26.499060] engines.node (package.json): ^24 (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:26.499623] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:26.499646] -----> Installing node 24.18.0 (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:26.499653] Copy [/tmp/buildpacks/336fb825d4d72bff/dependencies/dffbbb835fcd073c4544f78eb6247fac/node_24.18.0_linux_x64_cflinuxfs4_cdfed650.tgz] (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:28.475825] Using default npm version: 11.16.0 (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:28.475852] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:28.475871] Copy [/tmp/buildpacks/336fb825d4d72bff/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:28.755300] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:28.755330] -----> Creating runtime environment (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:28.757019] NODE_ENV=production (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:28.757047] NODE_HOME=/tmp/contents1574883458/deps/0/node (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:28.757053] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:28.757056] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:28.757059] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:28.757062] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:28.757078] -----> Building dependencies (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:28.757081] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:28.757083] Rebuilding any native modules (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:29.192877] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:29.244707] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:29.613097] up to date in 300ms (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:29.613357] 4 packages are looking for funding (STDOUT, STG)#
+#2026 09 11 14:18:30.144#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3223#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:29.613381] run `npm fund` for details (STDOUT, STG)#
+#2026 09 11 14:18:40.240#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3533#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:30.108207] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 09 11 14:18:40.240#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3533#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:38.127654] Exit status 0 (STDOUT, STG)#
+#2026 09 11 14:18:40.240#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3533#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:38.127700] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 09 11 14:18:40.240#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3533#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:38.127733] Uploading droplet... (STDOUT, STG)#
+#2026 09 11 14:18:40.240#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3533#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:38.127753] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 09 11 14:18:40.240#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3533#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:38.146303] Uploaded build artifacts cache (217B) (STDOUT, STG)#
+#2026 09 11 14:18:40.240#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3533#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:38.665527] Creating droplet for app with guid b6a8c635-8387-4f8d-b420-3a2ae6751e3c (STDOUT, API)#
+#2026 09 11 14:18:40.240#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3533#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:39.731015] Uploaded droplet (59.2M) (STDOUT, STG)#
+#2026 09 11 14:18:40.240#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3533#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:39.748027] Uploading complete (STDOUT, STG)#
+#2026 09 11 14:18:50.317#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3834#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:40.520070] Cell 937f755a-b90f-4c75-9860-2b1081c3ed98 stopping instance 17cc0483-f9da-4c51-83ee-1a42e0ca12f2 (STDOUT, STG)#
+#2026 09 11 14:18:50.317#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3834#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:40.520110] Cell 937f755a-b90f-4c75-9860-2b1081c3ed98 destroying container for instance 17cc0483-f9da-4c51-83ee-1a42e0ca12f2 (STDOUT, STG)#
+#2026 09 11 14:18:50.317#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3834#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:41.254197] Staging complete for build 17cc0483-f9da-4c51-83ee-1a42e0ca12f2 (STDOUT, API)#
+#2026 09 11 14:18:50.317#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3834#
+[PollStageAppStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:42.257671] Cell 937f755a-b90f-4c75-9860-2b1081c3ed98 successfully destroyed container for instance 17cc0483-f9da-4c51-83ee-1a42e0ca12f2 (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:01.058637] Updated app with guid b6a8c635-8387-4f8d-b420-3a2ae6751e3c ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:01.151012] Updating process: "web" (STDOUT, API)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:10.217298] Uploading app package for app with guid b6a8c635-8387-4f8d-b420-3a2ae6751e3c (STDOUT, API)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:10.394022] Updated app with guid b6a8c635-8387-4f8d-b420-3a2ae6751e3c ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:20.367903] Creating build for app with guid b6a8c635-8387-4f8d-b420-3a2ae6751e3c (STDOUT, API)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:20.872971] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:20.913850] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:20.913916] Cell 937f755a-b90f-4c75-9860-2b1081c3ed98 creating container for instance 17cc0483-f9da-4c51-83ee-1a42e0ca12f2 (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:21.710604] Security group rules were updated (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:21.809866] Cell 937f755a-b90f-4c75-9860-2b1081c3ed98 successfully created container for instance 17cc0483-f9da-4c51-83ee-1a42e0ca12f2 (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:22.628558] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:22.628575] Downloading app package... (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:22.686565] Downloaded build artifacts cache (214B) (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:22.845842] Downloaded app package (2.3M) (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:22.930097] -----> Nodejs Buildpack version 1.9.3 (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:23.021834] -----> Bootstrapping python (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:23.021858] -----> Installing python 3.13.14 (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:23.021902] Copy [/tmp/buildpacks/336fb825d4d72bff/dependencies/4b4266a2ff36730aef37b88b668ca327/python_3.13.14_linux_x64_cflinuxfs4_b80d4954.tgz] (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:26.498482] -----> Installing binaries (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:26.499060] engines.node (package.json): ^24 (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:26.499623] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:26.499646] -----> Installing node 24.18.0 (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:26.499653] Copy [/tmp/buildpacks/336fb825d4d72bff/dependencies/dffbbb835fcd073c4544f78eb6247fac/node_24.18.0_linux_x64_cflinuxfs4_cdfed650.tgz] (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:28.475825] Using default npm version: 11.16.0 (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:28.475852] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:28.475871] Copy [/tmp/buildpacks/336fb825d4d72bff/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:28.755300] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:28.755330] -----> Creating runtime environment (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:28.757019] NODE_ENV=production (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:28.757047] NODE_HOME=/tmp/contents1574883458/deps/0/node (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:28.757053] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:28.757056] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:28.757059] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:28.757062] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:28.757078] -----> Building dependencies (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:28.757081] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:28.757083] Rebuilding any native modules (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:29.192877] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:29.244707] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:29.613097] up to date in 300ms (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:29.613357] 4 packages are looking for funding (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:29.613381] run `npm fund` for details (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:30.108207] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:38.127654] Exit status 0 (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:38.127700] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:38.127733] Uploading droplet... (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:38.127753] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:38.146303] Uploaded build artifacts cache (217B) (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:38.665527] Creating droplet for app with guid b6a8c635-8387-4f8d-b420-3a2ae6751e3c (STDOUT, API)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:39.731015] Uploaded droplet (59.2M) (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:39.748027] Uploading complete (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:40.520070] Cell 937f755a-b90f-4c75-9860-2b1081c3ed98 stopping instance 17cc0483-f9da-4c51-83ee-1a42e0ca12f2 (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:40.520110] Cell 937f755a-b90f-4c75-9860-2b1081c3ed98 destroying container for instance 17cc0483-f9da-4c51-83ee-1a42e0ca12f2 (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:41.254197] Staging complete for build 17cc0483-f9da-4c51-83ee-1a42e0ca12f2 (STDOUT, API)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:42.257671] Cell 937f755a-b90f-4c75-9860-2b1081c3ed98 successfully destroyed container for instance 17cc0483-f9da-4c51-83ee-1a42e0ca12f2 (STDOUT, STG)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:50.392612] Updated app with guid b6a8c635-8387-4f8d-b420-3a2ae6751e3c ({:droplet_guid=>"c363da42-443a-4a47-8cb5-cf5a749a59a0"}) (STDOUT, API)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:50.960688] Cell e035ff14-e67d-44ba-9b10-e425cb0cd7d7 creating container for instance d02325d2-3d0f-44c1-b60a-8fe2645bb419 (STDOUT, CELL)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:51.728740] Security group rules were updated (STDOUT, CELL)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:51.809469] Cell e035ff14-e67d-44ba-9b10-e425cb0cd7d7 successfully created container for instance d02325d2-3d0f-44c1-b60a-8fe2645bb419 (STDOUT, CELL)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:55.718310] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:55.873047] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.215817] > start (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.215848] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.325827] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.326289] { (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.326309] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.326311] { (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.326314] "name": "workorder-ai-db", (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.326316] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.326320] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.326322] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.326337] "schema": "A7BB0BFA92BC4C5184B1718FA986E494", (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.326339] "database_id": "95241488-834e-4df0-83f8-1f477402cd49", (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.326341] "user": "A7BB0BFA92BC4C5184B1718FA986E494_340Z9EHEAYQ8Y4CGXG7GZAPW3_RT", (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.326343] "hdi_user": "A7BB0BFA92BC4C5184B1718FA986E494_340Z9EHEAYQ8Y4CGXG7GZAPW3_DT" (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.326345] }, (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.326346] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.326348] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.326349] "database", (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.326356] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.326358] ] (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.326359] } (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.326361] ] (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.326363] } (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.668334] @sap/hdi-deploy, version 5.7.0 (mode default), server version 4.00.000.00.1773772603 (4.0.0.0), cloud version 2026.2.5, node version 24.18.0, HDI version 1016, container API version 1007 (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.668383] Deployment started at 2026-09-11 14:18:56 (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.668641] Using hdb@2.29.6 for connection (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.684939] No ignore file at /home/vcap/app/.hdiignore. (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.685156] Collecting files... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.688361] Collecting files... ok (0s 3ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.688387] 3 directories collected (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.688407] 19 files collected (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.688410] 0 reusable modules collected (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.688946] Target service: workorder-ai-db (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.891789] Previous build with request ID 11531 finished at 2026-09-11T13:38:28.528 with status Committed and message: Make succeeded (0 warnings): 17 files deployed (effective 20), 0 files undeployed (effective 0), 0 dependent files redeployed. (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.891891] Processing revoke files... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.892035] Processing revoke files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.892134] Processing grants files... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.892242] Processing grants files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.894358] Preprocessing files... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.894506] Preprocessing files... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.894594] Connecting to the container "A7BB0BFA92BC4C5184B1718FA986E494"... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.950956] Connecting to the container "A7BB0BFA92BC4C5184B1718FA986E494"... ok (0s 56ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:56.950968] Locking the container "A7BB0BFA92BC4C5184B1718FA986E494"... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:57.060158] Locking the container "A7BB0BFA92BC4C5184B1718FA986E494"... ok (0s 109ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:57.060179] Synchronizing files with the container "A7BB0BFA92BC4C5184B1718FA986E494"... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:57.236500] Deleting files... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:57.360655] Deleting files... ok (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:57.360672] Writing files... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:57.360832] Writing 5 items (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:57.529042] Writing files... ok (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:57.529059] Synchronizing files with the container "A7BB0BFA92BC4C5184B1718FA986E494"... ok (0s 469ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:57.529873] added files: [ (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:57.529891] "src/gen/data/com-mindset-cap-ai-WorkOrders.csv", (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:57.529896] "src/gen/data/com-mindset-cap-ai-WorkOrders.hdbtabledata" (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:57.529898] ] (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:57.529901] modified files: [] (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:57.529905] deleted files: [] (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:57.529908] 2 modified or added files are scheduled for deploy based on delta detection (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:57.529911] 0 deleted files are scheduled for undeploy based on delta detection (filtered by undeploy allowlist) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:57.529980] 0 files are scheduled for deploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:57.529994] 0 files are scheduled for undeploy based on explicit specification (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:57.530114] Deploying to the container "A7BB0BFA92BC4C5184B1718FA986E494"... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.051783] Starting make in the container "A7BB0BFA92BC4C5184B1718FA986E494" with 2 files to deploy, 0 files to undeploy... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.051809] Disabling table replication for the container schema "A7BB0BFA92BC4C5184B1718FA986E494"... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.051813] Disabling table replication for the container schema "A7BB0BFA92BC4C5184B1718FA986E494"... ok (0s 8ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.051819] Migrating libraries... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.051822] Migrating libraries... ok (0s 8ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.051825] Making... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.051827] Preparing... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.051829] Preparing the make transaction... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.051832] Adding "src/gen/data/com-mindset-cap-ai-WorkOrders.csv" for deploy... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.051860] Preparing the make transaction... ok (0s 12ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.051863] Adding "src/gen/data/com-mindset-cap-ai-WorkOrders.csv" for deploy... ok (0s 11ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.051864] Adding "src/gen/data/com-mindset-cap-ai-WorkOrders.hdbtabledata" for deploy... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.051871] Adding "src/gen/data/com-mindset-cap-ai-WorkOrders.hdbtabledata" for deploy... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.051873] Preparing... ok (0s 24ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.051881] Calculating dependencies... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.051883] Expanding... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.051885] Expanding "src/gen/data/com-mindset-cap-ai-WorkOrders.hdbtabledata"... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.051919] Expanding "src/gen/data/com-mindset-cap-ai-WorkOrders.hdbtabledata"... ok (0s 1ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.051936] Expanding... ok (0s 15ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.051939] Precompiling... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.051941] Precompiling "src/gen/data/com-mindset-cap-ai-WorkOrders.csv"... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.051943] Precompiling "src/gen/data/com-mindset-cap-ai-WorkOrders.hdbtabledata"... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.051949] Precompiling "src/gen/data/com-mindset-cap-ai-WorkOrders.hdbtabledata"... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052035] Precompiling "src/gen/data/com-mindset-cap-ai-WorkOrders.hdbtabledata$0.expand"... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052065] Expanded from "src/gen/data/com-mindset-cap-ai-WorkOrders.hdbtabledata" (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052068] Precompiling "src/gen/data/com-mindset-cap-ai-WorkOrders.csv"... ok (0s 1ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052071] Precompiling "src/gen/data/com-mindset-cap-ai-WorkOrders.hdbtabledata$0.expand"... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052073] Precompiling... ok (0s 11ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052076] Merging... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052077] Merging... ok (0s 16ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052080] Calculating dependencies... ok (0s 42ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052092] Processing work list... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052099] Deploying "src/gen/data/com-mindset-cap-ai-WorkOrders.csv"... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052101] Deploying "src/gen/data/com-mindset-cap-ai-WorkOrders.hdbtabledata"... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052102] Deploying "src/gen/data/com-mindset-cap-ai-WorkOrders.hdbtabledata"... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052106] Deploying "src/gen/data/com-mindset-cap-ai-WorkOrders.csv"... ok (0s 2ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052108] Deploying "src/gen/data/com-mindset-cap-ai-WorkOrders.hdbtabledata$0.expand"... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052110] Expanded from "src/gen/data/com-mindset-cap-ai-WorkOrders.hdbtabledata" (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052112] Inserted 10 records of the data source file "com-mindset-cap-ai-WorkOrders.csv" into the target table "COM_MINDSET_CAP_AI_WORKORDERS" (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052120] Deploying "src/gen/data/com-mindset-cap-ai-WorkOrders.hdbtabledata$0.expand"... ok (0s 32ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052125] Redeploying "src/gen/WorkOrderService.WorkOrders.hdbview"... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052127] Redeploying "src/gen/WorkOrderService.WorkOrders.hdbview"... ok (0s 2ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052137] Processing work list... ok (0s 48ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052139] Finalizing... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052141] Finalizing... ok (0s 16ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052145] Make succeeded (0 warnings): 2 files deployed (effective 3), 0 files undeployed (effective 0), 1 dependent files redeployed (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052439] Making... ok (0s 262ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052457] Enabling table replication for the container schema "A7BB0BFA92BC4C5184B1718FA986E494"... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052461] Enabling table replication for the container schema "A7BB0BFA92BC4C5184B1718FA986E494"... ok (0s 7ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052467] Starting make in the container "A7BB0BFA92BC4C5184B1718FA986E494" with 2 files to deploy, 0 files to undeploy... ok (0s 300ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052478] Deploying to the container "A7BB0BFA92BC4C5184B1718FA986E494"... ok (0s 522ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052762] No default-access-role handling needed; global role "A7BB0BFA92BC4C5184B1718FA986E494::access_role" will not be adapted (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.052862] Unlocking the container "A7BB0BFA92BC4C5184B1718FA986E494"... (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.053193] Unlocking the container "A7BB0BFA92BC4C5184B1718FA986E494"... ok (0s 0ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.053326] Deployment to container A7BB0BFA92BC4C5184B1718FA986E494 done [Deployment ID: none]. (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.054395] Deployment ended at 2026-09-11 14:18:58 (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.054598] (1s 805ms) (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.066770] npm notice (STDERR, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.066795] npm notice New major version of npm available! 11.16.0 -> 12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.066803] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.066806] npm notice To update run: npm install -g npm@12.0.2 (STDERR, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.066809] npm notice (STDERR, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.119967] Exit status 0 (STDOUT, APP/TASK/deploy)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.668025] Cell e035ff14-e67d-44ba-9b10-e425cb0cd7d7 stopping instance d02325d2-3d0f-44c1-b60a-8fe2645bb419 (STDOUT, CELL)#
+#2026 09 11 14:19:00.582#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-db-deployer#flowable-async-job-executor-thread-3245#
+[PollExecuteTaskStatusExecution] b6a8c635-8387-4f8d-b420-3a2ae6751e3c [2026-09-11T14:18:58.668061] Cell e035ff14-e67d-44ba-9b10-e425cb0cd7d7 destroying container for instance d02325d2-3d0f-44c1-b60a-8fe2645bb419 (STDOUT, CELL)#

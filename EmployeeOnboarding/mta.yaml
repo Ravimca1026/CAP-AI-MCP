@@ -1,0 +1,107 @@
+_schema-version: "3.1"
+ID: EmployeeOnboarding
+description: Employee Onboarding Approval App
+version: 1.0.0
+modules:
+- name: EmployeeOnboarding-db-deployer
+  type: hdb
+  path: gen/db
+  requires:
+  - name: EmployeeOnboarding-db
+- name: EmployeeOnboarding-srv
+  type: nodejs
+  path: .
+  properties:
+    BPA_DEFINITION_ID: us10.mindset-development.employeeonboarding.employeeOnboardingApproval
+  requires:
+  - name: EmployeeOnboarding-db
+  - name: EmployeeOnboarding-uaa
+  - name: EmployeeOnboarding-destination
+  provides:
+  - name: srv-api
+    properties:
+      srv-url: ${default-url}
+  parameters:
+    buildpack: nodejs_buildpack
+    memory: 256M
+- name: EmployeeOnboarding-approuter
+  type: approuter.nodejs
+  path: approuter
+  requires:
+  - name: EmployeeOnboarding-uaa
+  - name: EmployeeOnboarding-destination
+  - name: srv-api
+    group: destinations
+    properties:
+      forwardAuthToken: true
+      name: srv-api
+      url: ~{srv-url}
+  parameters:
+    disk-quota: 256M
+    memory: 128M
+- name: EmployeeOnboarding-app-content
+  type: com.sap.application.content
+  path: .
+  requires:
+  - name: EmployeeOnboarding-repo-host
+    parameters:
+      content-target: true
+  build-parameters:
+    build-result: resources
+    requires:
+    - artifacts:
+      - commindsetonboardingonboarding.zip
+      name: commindsetonboardingonboarding
+      target-path: resources/
+- name: commindsetonboardingonboarding
+  type: html5
+  path: app/onboarding
+  build-parameters:
+    build-result: dist
+    builder: custom
+    commands:
+    - npm install
+    - npm run build:cf
+    supported-platforms: []
+resources:
+- name: EmployeeOnboarding-db
+  type: com.sap.xs.hdi-container
+  parameters:
+    service: hana
+    service-plan: hdi-shared
+- name: EmployeeOnboarding-uaa
+  type: org.cloudfoundry.managed-service
+  parameters:
+    config:
+      oauth2-configuration:
+        redirect-uris:
+        - https://*.cfapps.us10-001.hana.ondemand.com/**
+      tenant-mode: dedicated
+      xsappname: EmployeeOnboarding
+    service: xsuaa
+    service-plan: application
+- name: EmployeeOnboarding-destination
+  type: org.cloudfoundry.managed-service
+  parameters:
+    config:
+      HTML5Runtime_enabled: false
+      init_data:
+        instance:
+          destinations:
+          - Authentication: NoAuthentication
+            Name: ui5
+            ProxyType: Internet
+            Type: HTTP
+            URL: https://ui5.sap.com
+          existing_destinations_policy: update
+    service: destination
+    service-plan: lite
+- name: EmployeeOnboarding-repo-host
+  type: org.cloudfoundry.managed-service
+  parameters:
+    service: html5-apps-repo
+    service-name: EmployeeOnboarding-html5-service
+    service-plan: app-host
+parameters:
+  deploy_mode: html5-repo
+  enable-parallel-deployments: true

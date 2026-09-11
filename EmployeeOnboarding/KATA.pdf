@@ -1,0 +1,40 @@
+KATA — Employee Onboarding Approval
+=====================================
+Scenario:
+Build a full stack SAP application where HR submits an employee onboarding request which goes through manager approval via BPA.
+Architecture:
+Fiori UI → CAP → HANA → BPA → My Inbox
+Data Model:
+entity OnboardingRequests {
+  key ID                          : UUID    @Core.Computed;
+  employeeName        : String(100)   not null;
+  employeeEmail         : String(100)   not null;
+  department               : String enum { HR; IT; Sales; Finance; Operations; } not null;
+  role                              : String(100)   not null;
+  startDate                     : Date          not null;
+  laptopRequired          : Boolean       default false;
+  accessCardRequired  : Boolean       default false;
+  remarks                        : String(500);
+  status                            : String        default 'PENDING';
+  createdAt                     : Timestamp     @cds.on.insert : $now;
+}
+Tasks:
+Task 1:  CAP Backend
+Created CAP project →  Just fix the issues and,  Replace the env into Destination
+
+
+Task 2:   BPA Process  
+Task 3: BTP Destination
+Create BPA_WORKFLOW_EMP destination
+Authentication: OAuth2ClientCredentials
+Task 4: Fiori UI
+Generate List Report Page
+Task 5: Deploy to CF
+Expected Result:
+1	Open Fiori app	List Report loads
+2	Click Create	Form opens
+3	Fill form + Save	Record saved in HANA
+4	Check logs	[BPA] Instance created
+5	Open My Inbox	Approval task appears
+6	Approve/Reject	Status updates
+

@@ -1,0 +1,263 @@
+{
+	"_version": "1.85.0",
+	"sap.app": {
+		"id": "com.mind.set.northwindmultitabv4list",
+		"type": "application",
+		"i18n": {
+			"bundleUrl": "i18n/i18n.properties",
+			"supportedLocales": [
+				""
+			]
+		},
+		"applicationVersion": {
+			"version": "0.0.1"
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"resources": "resources.json",
+		"sourceTemplate": {
+			"id": "@sap/generator-fiori:lrop",
+			"version": "1.26.0",
+			"toolsId": "e9e3549f-5b4b-471c-a452-cb383b09f465"
+		},
+		"dataSources": {
+			"mainService": {
+				"uri": "/odata/v4/northwind/",
+				"type": "OData",
+				"settings": {
+					"annotations": [],
+					"odataVersion": "4.0"
+				}
+			}
+		}
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		}
+	},
+	"sap.ui5": {
+		"flexEnabled": true,
+		"dependencies": {
+			"minUI5Version": "1.149.0",
+			"libs": {
+				"sap.m": {},
+				"sap.ui.core": {},
+				"sap.fe.templates": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "com.mind.set.northwindmultitabv4list.i18n.i18n",
+					"supportedLocales": [
+						""
+					]
+				}
+			},
+			"": {
+				"dataSource": "mainService",
+				"preload": true,
+				"settings": {
+					"operationMode": "Server",
+					"autoExpandSelect": true,
+					"earlyRequests": true
+				}
+			},
+			"@i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"uri": "i18n/i18n.properties",
+				"settings": {
+					"supportedLocales": [
+						""
+					]
+				}
+			}
+		},
+		"resources": {
+			"css": []
+		},
+		"routing": {
+			"config": {},
+			"routes": [
+				{
+					"pattern": ":?query:",
+					"name": "CategoriesList",
+					"target": "CategoriesList"
+				},
+				{
+					"pattern": "Categories({key}):?query:",
+					"name": "CategoriesObjectPage",
+					"target": "CategoriesObjectPage"
+				},
+				{
+					"pattern": "Categories({key})/Products({key2}):?query:",
+					"name": "ProductsObjectPage",
+					"target": "ProductsObjectPage"
+				},
+				{
+					"pattern": "Customers({key}):?query:",
+					"name": "CustomersObjectPage",
+					"target": "CustomersObjectPage"
+				},
+				{
+					"pattern": "Employees({key}):?query:",
+					"name": "EmployeesObjectPage",
+					"target": "EmployeesObjectPage"
+				}
+			],
+			"targets": {
+				"CategoriesList": {
+					"type": "Component",
+					"id": "CategoriesList",
+					"name": "sap.fe.templates.ListReport",
+					"options": {
+						"settings": {
+							"contextPath": "/Categories",
+							"variantManagement": "Page",
+							"navigation": {
+								"Categories": {
+									"detail": {
+										"route": "CategoriesObjectPage"
+									}
+								},
+								"Customers": {
+									"detail": {
+										"route": "CustomersObjectPage"
+									}
+								},
+								"Employees": {
+									"detail": {
+										"route": "EmployeesObjectPage"
+									}
+								}
+							},
+							"controlConfiguration": {
+								"@com.sap.vocabularies.UI.v1.LineItem": {
+									"tableSettings": {
+										"type": "ResponsiveTable"
+									}
+								},
+								"/Customers/@com.sap.vocabularies.UI.v1.LineItem#tableView": {
+									"tableSettings": {
+										"type": "ResponsiveTable"
+									}
+								},
+								"/Employees/@com.sap.vocabularies.UI.v1.LineItem#tableView": {
+									"tableSettings": {
+										"type": "ResponsiveTable"
+									}
+								},
+								"/Orders/@com.sap.vocabularies.UI.v1.LineItem#tableView": {
+									"tableSettings": {
+										"type": "ResponsiveTable"
+									}
+								}
+							},
+							"views": {
+								"paths": [
+									{
+										"key": "tableView",
+										"annotationPath": "com.sap.vocabularies.UI.v1.SelectionPresentationVariant#tableView"
+									},
+									{
+										"key": "tableView1",
+										"annotationPath": "com.sap.vocabularies.UI.v1.SelectionPresentationVariant#tableView",
+										"entitySet": "Customers"
+									},
+									{
+										"key": "tableView2",
+										"annotationPath": "com.sap.vocabularies.UI.v1.SelectionPresentationVariant#tableView",
+										"entitySet": "Employees"
+									},
+									{
+										"key": "tableView3",
+										"annotationPath": "com.sap.vocabularies.UI.v1.SelectionPresentationVariant#tableView",
+										"entitySet": "Orders"
+									}
+								]
+							}
+						}
+					}
+				},
+				"CategoriesObjectPage": {
+					"type": "Component",
+					"id": "CategoriesObjectPage",
+					"name": "sap.fe.templates.ObjectPage",
+					"options": {
+						"settings": {
+							"editableHeaderContent": false,
+							"contextPath": "/Categories",
+							"navigation": {
+								"Products": {
+									"detail": {
+										"route": "ProductsObjectPage"
+									}
+								}
+							}
+						}
+					}
+				},
+				"ProductsObjectPage": {
+					"type": "Component",
+					"id": "ProductsObjectPage",
+					"name": "sap.fe.templates.ObjectPage",
+					"options": {
+						"settings": {
+							"editableHeaderContent": false,
+							"contextPath": "/Categories/Products"
+						}
+					}
+				},
+				"CustomersObjectPage": {
+					"type": "Component",
+					"id": "CustomersObjectPage",
+					"name": "sap.fe.templates.ObjectPage",
+					"options": {
+						"settings": {
+							"editableHeaderContent": false,
+							"contextPath": "/Customers"
+						}
+					}
+				},
+				"EmployeesObjectPage": {
+					"type": "Component",
+					"id": "EmployeesObjectPage",
+					"name": "sap.fe.templates.ObjectPage",
+					"options": {
+						"settings": {
+							"editableHeaderContent": false,
+							"contextPath": "/Employees"
+						}
+					}
+				}
+			}
+		},
+		"flexBundle": false
+	},
+	"sap.fiori": {
+		"registrationIds": [],
+		"archeType": "transactional"
+	},
+	"sap.fe": {
+		"app": {
+			"enableLazyLoading": true
+		}
+	}
+}

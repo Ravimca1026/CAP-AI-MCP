@@ -1,0 +1,15 @@
+###
+POST http://localhost:4004/odata/v4/work-order-agent/triageOrder
+Content-Type: application/json
+
+{
+  "description": "Production motor has stopped and is making abnormal noise. Production is currently stopped."
+}
+
+###
+POST http://localhost:4004/odata/v4/work-order-agent/ask
+Content-Type: application/json
+
+{
+    "question": "Which high priority ones are due within 7 days?"
+}

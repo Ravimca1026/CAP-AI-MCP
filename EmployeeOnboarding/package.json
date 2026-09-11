@@ -1,0 +1,58 @@
+{
+  "name": "EmployeeOnboarding",
+  "version": "1.0.0",
+  "dependencies": {
+    "@cap-js/hana": "^2",
+    "@sap-cloud-sdk/http-client": "^4.8.0",
+    "@sap-cloud-sdk/resilience": "^4.8.0",
+    "@sap/cds": "^9",
+    "@sap/xssec": "^4",
+    "axios": "^1.7.0"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^2.4",
+    "@sap/cds-dk": "^9",
+    "mbt": "^1.2.49"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "watch-onboarding": "cds watch --open com.mindset.onboarding.onboarding/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "undeploy": "cf undeploy EmployeeOnboarding --delete-services --delete-service-keys --delete-service-brokers",
+    "build": "rimraf resources mta_archives && mbt build --mtar archive",
+    "deploy": "cf deploy mta_archives/archive.mtar --retries 1"
+  },
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "sqlite",
+        "[production]": {
+          "kind": "hana-cloud"
+        }
+      },
+      "BPA_WORKFLOW": {
+        "kind": "rest",
+        "credentials": {
+          "destination": "BPA_WORKFLOW"
+        }
+      }
+    },
+    "build": {
+      "target": "gen",
+      "tasks": [
+        {
+          "for": "hana"
+        },
+        {
+          "for": "nodejs"
+        }
+      ]
+    }
+  },
+  "private": true,
+  "workspaces": [
+    "app/*"
+  ],
+  "sapux": [
+    "app/onboarding"
+  ]
+}

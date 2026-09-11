@@ -1,0 +1,51 @@
+{
+  "name": "northwind-cap",
+  "version": "1.0.0",
+  "dependencies": {
+    "@sap-cloud-sdk/connectivity": "^4",
+    "@sap-cloud-sdk/http-client": "^4.7.0",
+    "@sap-cloud-sdk/resilience": "^4",
+    "@sap/cds": "^9",
+    "@sap/xssec": "^4"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^2.4",
+    "@sap/cds-dk": "^9.9.2",
+    "cds-plugin-ui5": "^0.17.0",
+    "mbt": "^1.2.49",
+    "rimraf": "^5.0.5"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "watch-northwindmultitab_v4_list": "cds watch --open com.mind.set.northwindmultitabv4list/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "undeploy": "cf undeploy northwind-cap --delete-services --delete-service-keys --delete-service-brokers",
+    "build": "rimraf resources mta_archives && mbt build --mtar archive",
+    "deploy": "cf deploy mta_archives/archive.mtar --retries 1"
+  },
+  "private": true,
+  "cds": {
+    "requires": {
+      "[production]": {
+        "auth": "mocked"
+      },
+      "Northwind": {
+        "kind": "odata-v4",
+        "model": "srv/external/Northwind",
+        "credentials": {
+          "destination": "Northwind_CAP",
+          "path": "/V4/Northwind/Northwind.svc",
+          "headers": {
+            "x-csrf-token": "fetch"
+          }
+        }
+      },
+      "destinations": true
+    }
+  },
+  "workspaces": [
+    "app/*"
+  ],
+  "sapux": [
+    "app/northwindmultitab_v4_list"
+  ]
+}

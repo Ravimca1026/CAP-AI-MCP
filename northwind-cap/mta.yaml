@@ -1,0 +1,143 @@
+_schema-version: 3.3.0
+ID: northwind-cap
+description: A simple CAP project.
+version: 1.0.0
+modules:
+
+- name: northwind-cap-srv
+  type: nodejs
+  path: gen/srv
+  requires:
+  - name: northwind-cap-auth
+  - name: northwind-cap-destination
+  provides:
+  - name: srv-api
+    properties:
+      srv-url: ${default-url}
+  parameters:
+    buildpack: nodejs_buildpack
+    instances: 1
+  build-parameters:
+    builder: npm-ci
+
+- name: northwind-cap-app-content
+  type: com.sap.application.content
+  path: .
+  requires:
+  - name: northwind-cap-repo-host
+    parameters:
+      content-target: true
+  build-parameters:
+    build-result: resources
+    requires:
+    - artifacts:
+      - commindsetnorthwindmultitabv4list.zip
+      name: commindsetnorthwindmultitabv4list
+      target-path: resources/
+
+- name: commindsetnorthwindmultitabv4list
+  type: html5
+  path: app/northwindmultitab_v4_list
+  build-parameters:
+    build-result: dist
+    builder: custom
+    commands:
+    - npm install
+    - npm run build:cf
+    supported-platforms: []
+
+- name: northwind-cap-destination-content
+  type: com.sap.application.content
+  requires:
+  - name: northwind-cap-destination
+    parameters:
+      content-target: true
+  - name: northwind-cap-repo-host
+    parameters:
+      service-key:
+        name: northwind-cap-repo-host-key
+  - name: northwind-cap-auth
+    parameters:
+      service-key:
+        name: northwind-cap-auth-key
+  - name: srv-api                          # ← ADDED
+    group: destinations
+    properties:
+      forwardAuthToken: true
+      name: northwind-cap-srv-api
+      url: ~{srv-url}
+  parameters:
+    content:
+      instance:
+        destinations:
+        - Name: northwindv4fioriapp_northwind_cap_repo_host
+          ServiceInstanceName: northwind-cap-html5-service
+          ServiceKeyName: northwind-cap-repo-host-key
+          sap.cloud.service: northwindv4fioriapp
+        - Authentication: OAuth2UserTokenExchange
+          Name: northwindv4fioriapp_northwind_cap_auth
+          ServiceInstanceName: northwind-cap-auth
+          ServiceKeyName: northwind-cap-auth-key
+          sap.cloud.service: northwindv4fioriapp
+        existing_destinations_policy: ignore
+  build-parameters:
+    no-source: true
+
+resources:
+
+- name: northwind-cap-auth
+  type: org.cloudfoundry.managed-service
+  parameters:
+    config:
+      oauth2-configuration:
+        credential-types:
+        - binding-secret
+        - x509
+      tenant-mode: dedicated
+      xsappname: northwind-cap
+    path: ./xs-security.json
+    service: xsuaa
+    service-plan: application
+
+- name: northwind-cap-destination
+  type: org.cloudfoundry.managed-service
+  parameters:
+  
+    config:
+      HTML5Runtime_enabled: true         # ← CHANGED to true
+      init_data:
+        instance:
+          destinations:
+          - Authentication: NoAuthentication
+            Name: ui5
+            ProxyType: Internet
+            Type: HTTP
+            URL: https://ui5.sap.com
+          - Authentication: NoAuthentication   # ← ADDED
+            Name: northwind-cap-srv
+            ProxyType: Internet
+            Type: HTTP
+            URL: ~{srv-api/srv-url}
+          existing_destinations_policy: update
+    service: destination
+    service-plan: lite
+  requires:
+  - name: srv-api
+
+- name: northwind-cap-repo-host
+  type: org.cloudfoundry.managed-service
+  parameters:
+    service: html5-apps-repo
+    service-name: northwind-cap-html5-service
+    service-plan: app-host
+
+parameters:
+  deploy_mode: html5-repo
+  enable-parallel-deployments: true
+
+build-parameters:
+  before-all:
+  - builder: custom
+    commands:
+    - npm ci
+    - npx cds build --production

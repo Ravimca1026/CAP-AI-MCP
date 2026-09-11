@@ -1,0 +1,62 @@
+@uaaUrl = https://mindset-development.authentication.us10.hana.ondemand.com
+@clientId = sb-8fba328f-ec13-4450-b39a-dc1c8ba0197a!b624379|xsuaa!b49390
+@clientSecret = eb941163-c0aa-4401-ae6e-f209a144cb01$JhACpHWF8jKtFbrhmC-gf71kGt-LcnKY2M6wkxLeP08=
+@bpaUrl = https://spa-api-gateway-bpi-us-prod.cfapps.us10.hana.ondemand.com
+
+### Step 1 — Get Token
+# @name getToken
+POST {{uaaUrl}}/oauth/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=client_credentials&client_id={{clientId}}&client_secret={{clientSecret}}
+
+###
+
+### Step 2 — Get Definition ID
+GET {{bpaUrl}}/workflow/rest/v1/workflow-definitions
+Authorization: Bearer {{getToken.response.body.access_token}}
+
+###
+
+### Step 3 — Trigger BPA Directly
+POST {{bpaUrl}}/workflow/rest/v1/workflow-instances
+Authorization: Bearer {{getToken.response.body.access_token}}
+Content-Type: application/json
+
+{
+  "definitionId": "us10.mindset-development.employeeonboarding.employeeOnboardingApproval",
+  "context": {
+    "employeename": "John Doe",
+    "employeeemail": "john@mindsetconsulting.com",
+    "department": "IT",
+    "role": "Developer",
+    "startdate": "2026-08-01",
+    "laptoprequired": true,
+    "accesscardrequired": true,
+    "remarks": "Test onboarding"
+  }
+}
+
+###
+
+### Step 4 — Create Onboarding Request via CAP
+POST {{appUrl}}/odata/v4/onboarding/OnboardingRequests
+Authorization: Bearer {{getToken.response.body.access_token}}
+Content-Type: application/json
+
+{
+  "employeeName": "John Doe",
+  "employeeEmail": "john@mindsetconsulting.com",
+  "department": "IT",
+  "role": "Developer",
+  "startDate": "2026-08-01",
+  "laptopRequired": true,
+  "accessCardRequired": true,
+  "remarks": "Test onboarding"
+}
+
+###
+
+### Step 5 — Get All Onboarding Requests
+GET {{appUrl}}/odata/v4/onboarding/OnboardingRequests
+Authorization: Bearer {{getToken.response.body.access_token}}

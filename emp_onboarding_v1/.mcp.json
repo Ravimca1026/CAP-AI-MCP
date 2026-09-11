@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "bp-icp-server": {
+      "type": "http",
+      "url": "http://localhost:4004/mcp/mcponboarding"
+    }
+  }
+}

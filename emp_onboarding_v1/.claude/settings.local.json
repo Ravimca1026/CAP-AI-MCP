@@ -1,0 +1,6 @@
+{
+  "enabledMcpjsonServers": [
+    "bp-icp-server"
+  ],
+  "enableAllProjectMcpServers": true
+}

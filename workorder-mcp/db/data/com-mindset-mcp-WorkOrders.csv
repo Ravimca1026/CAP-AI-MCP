@@ -1,0 +1,6 @@
+ID,workOrderId,description,status,priority,plant,workCenter,technician,plannedDate,completedDate
+10000001,100001,Pump Maintenance,IN_PROGRESS,HIGH,PL01,MECH-01,John Smith,2026-09-08,
+10000002,100002,Motor Inspection,COMPLETED,MEDIUM,PL01,ELEC-01,David Kumar,2026-09-05,2026-09-06
+10000003,100003,Valve Replacement,OPEN,HIGH,PL02,MECH-02,Ravi Kumar,2026-09-12,
+10000004,100004,Conveyor Belt Repair,OPEN,LOW,PL02,MECH-03,Anil Kumar,2026-09-15,
+10000005,100005,Electrical Panel Check,COMPLETED,MEDIUM,PL03,ELEC-02,Suresh Rao,2026-09-01,2026-09-02

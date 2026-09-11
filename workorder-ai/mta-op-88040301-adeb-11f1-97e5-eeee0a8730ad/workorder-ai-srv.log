@@ -1,0 +1,576 @@
+#2026 09 11 14:19:10.656#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3250#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:18:00.816946] Updated app with guid 1ffb686e-4da7-4f4e-8273-4041ccbb6419 ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 09 11 14:19:10.656#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3250#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:18:00.917917] Updating process: "web" (STDOUT, API)#
+#2026 09 11 14:19:10.656#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3250#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:18:36.733091] Uploading app package for app with guid 1ffb686e-4da7-4f4e-8273-4041ccbb6419 (STDOUT, API)#
+#2026 09 11 14:19:10.656#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3250#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:18:36.938554] Updated app with guid 1ffb686e-4da7-4f4e-8273-4041ccbb6419 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 09 11 14:19:10.656#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3250#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:00.947358] Stopping app with guid 1ffb686e-4da7-4f4e-8273-4041ccbb6419 (STDOUT, API)#
+#2026 09 11 14:19:10.656#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3250#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:01.201384] Creating build for app with guid 1ffb686e-4da7-4f4e-8273-4041ccbb6419 (STDOUT, API)#
+#2026 09 11 14:19:10.656#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3250#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:01.883767] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 09 11 14:19:10.656#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3250#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:01.935226] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 09 11 14:19:10.656#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3250#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:01.935305] Cell 58d394c9-f1b4-4182-b8f6-4bee0666fed7 creating container for instance 91a01ae1-7c4b-4ad0-b4fe-f167e3b776cc (STDOUT, STG)#
+#2026 09 11 14:19:10.656#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3250#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:02.738513] Security group rules were updated (STDOUT, STG)#
+#2026 09 11 14:19:10.656#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3250#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:02.823058] Cell 58d394c9-f1b4-4182-b8f6-4bee0666fed7 successfully created container for instance 91a01ae1-7c4b-4ad0-b4fe-f167e3b776cc (STDOUT, STG)#
+#2026 09 11 14:19:10.656#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3250#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:03.155482] Downloading app package... (STDOUT, STG)#
+#2026 09 11 14:19:10.656#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3250#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:03.155512] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 09 11 14:19:10.656#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3250#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:03.240083] Downloaded build artifacts cache (217B) (STDOUT, STG)#
+#2026 09 11 14:19:20.691#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3253#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:17.329836] Downloaded app package (317.3M) (STDOUT, STG)#
+#2026 09 11 14:19:20.691#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3253#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:17.423134] -----> Nodejs Buildpack version 1.9.3 (STDOUT, STG)#
+#2026 09 11 14:19:20.691#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3253#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:19.021496] -----> Bootstrapping python (STDOUT, STG)#
+#2026 09 11 14:19:20.691#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3253#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:19.021530] -----> Installing python 3.13.14 (STDOUT, STG)#
+#2026 09 11 14:19:20.691#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3253#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:19.021596] Copy [/tmp/buildpacks/336fb825d4d72bff/dependencies/4b4266a2ff36730aef37b88b668ca327/python_3.13.14_linux_x64_cflinuxfs4_b80d4954.tgz] (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:22.428329] -----> Installing binaries (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:22.428601] engines.node (package.json): ^24 (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:22.428620] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:22.428669] -----> Installing node 24.18.0 (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:22.428835] Copy [/tmp/buildpacks/336fb825d4d72bff/dependencies/dffbbb835fcd073c4544f78eb6247fac/node_24.18.0_linux_x64_cflinuxfs4_cdfed650.tgz] (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:24.410187] Using default npm version: 11.16.0 (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:24.410211] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:24.410356] Copy [/tmp/buildpacks/336fb825d4d72bff/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:24.712333] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:24.712366] -----> Creating runtime environment (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:24.713956] NODE_ENV=production (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:24.713983] NODE_HOME=/tmp/contents3289312253/deps/0/node (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:24.713986] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:24.713992] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:24.713994] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:24.713997] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:24.714014] -----> Building dependencies (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:24.714016] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:24.714018] Rebuilding any native modules (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:25.367119] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:25.368555] npm notice (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:25.368570] npm notice New major version of npm available! 11.16.0 -> 12.0.2 (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:25.368574] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2 (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:25.368577] npm notice To update run: npm install -g npm@12.0.2 (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:25.368579] npm notice (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:25.427743] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:26.044291] up to date in 540ms (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:26.044570] 19 packages are looking for funding (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:26.044603] run `npm fund` for details (STDOUT, STG)#
+#2026 09 11 14:19:30.777#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3866#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:19:28.165934] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 09 11 14:20:21.279#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3905#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:12.321700] Exit status 0 (STDOUT, STG)#
+#2026 09 11 14:20:21.279#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3905#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:12.321761] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 09 11 14:20:21.279#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3905#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:12.321798] Uploading droplet... (STDOUT, STG)#
+#2026 09 11 14:20:21.279#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3905#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:12.321884] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 09 11 14:20:21.279#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3905#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:12.351678] Uploaded build artifacts cache (223B) (STDOUT, STG)#
+#2026 09 11 14:20:21.279#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3905#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:15.790933] Creating droplet for app with guid 1ffb686e-4da7-4f4e-8273-4041ccbb6419 (STDOUT, API)#
+#2026 09 11 14:20:31.339#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3621#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:22.106653] Uploaded droplet (367.5M) (STDOUT, STG)#
+#2026 09 11 14:20:31.339#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3621#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:22.213738] Uploading complete (STDOUT, STG)#
+#2026 09 11 14:20:31.339#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3621#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:22.802466] Cell 58d394c9-f1b4-4182-b8f6-4bee0666fed7 stopping instance 91a01ae1-7c4b-4ad0-b4fe-f167e3b776cc (STDOUT, STG)#
+#2026 09 11 14:20:31.339#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3621#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:22.802504] Cell 58d394c9-f1b4-4182-b8f6-4bee0666fed7 destroying container for instance 91a01ae1-7c4b-4ad0-b4fe-f167e3b776cc (STDOUT, STG)#
+#2026 09 11 14:20:31.339#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3621#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:22.844485] Staging complete for build 91a01ae1-7c4b-4ad0-b4fe-f167e3b776cc (STDOUT, API)#
+#2026 09 11 14:20:31.339#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3621#
+[PollStageAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:24.997568] Cell 58d394c9-f1b4-4182-b8f6-4bee0666fed7 successfully destroyed container for instance 91a01ae1-7c4b-4ad0-b4fe-f167e3b776cc (STDOUT, STG)#
+#2026 09 11 14:20:41.441#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3924#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:31.409582] Updated app with guid 1ffb686e-4da7-4f4e-8273-4041ccbb6419 ({:droplet_guid=>"f2b63799-df35-4385-9f14-e078cb801ef1"}) (STDOUT, API)#
+#2026 09 11 14:20:41.441#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3924#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:31.612658] Creating revision for app with guid 1ffb686e-4da7-4f4e-8273-4041ccbb6419 (STDOUT, API)#
+#2026 09 11 14:20:41.441#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3924#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:31.659188] Starting app with guid 1ffb686e-4da7-4f4e-8273-4041ccbb6419 (STDOUT, API)#
+#2026 09 11 14:20:41.441#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3924#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:32.166830] Cell 3aff9cc5-b49c-4ab6-afd4-1541a702fe58 creating container for instance 70c045ed-6d35-4ad5-615a-a628 (STDOUT, CELL)#
+#2026 09 11 14:20:41.441#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3924#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:33.019043] Security group rules were updated (STDOUT, CELL)#
+#2026 09 11 14:20:41.441#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3924#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:33.106244] Cell 3aff9cc5-b49c-4ab6-afd4-1541a702fe58 successfully created container for instance 70c045ed-6d35-4ad5-615a-a628 (STDOUT, CELL)#
+#2026 09 11 14:20:41.441#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3924#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:33.729431] Downloading droplet... (STDOUT, CELL)#
+#2026 09 11 14:20:51.619#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3934#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:48.826304] Copying droplet into the container failed: stream-in: nstar: error streaming in: exit status 2. Output: tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_cuda.so: Wrote only 6144 of 10240 bytes (STDERR, CELL)#
+#2026 09 11 14:20:51.619#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3934#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:48.826328] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_shared.so: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:20:51.619#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3934#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:48.826334] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_tensorrt.so: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:20:51.619#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3934#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:48.826340] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/onnxruntime_binding.node: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:20:51.619#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3934#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:48.826346] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:20:51.619#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3934#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:48.826351] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:20:51.619#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3934#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:48.826355] tar: ./app/node_modules/onnxruntime-node/lib/backend.ts: Cannot open: No such file or directory (STDERR, CELL)#
+#2026 09 11 14:20:51.620#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3934#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:48.826357] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:21:01.701#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3941#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:54.405537] Cell 3aff9cc5-b49c-4ab6-afd4-1541a702fe58 stopping instance 70c045ed-6d35-4ad5-615a-a628 (STDOUT, CELL)#
+#2026 09 11 14:21:01.701#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3941#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:54.405581] Cell 3aff9cc5-b49c-4ab6-afd4-1541a702fe58 destroying container for instance 70c045ed-6d35-4ad5-615a-a628 (STDOUT, CELL)#
+#2026 09 11 14:21:01.701#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3941#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:54.412962] Process has crashed with type: "web" (STDOUT, API)#
+#2026 09 11 14:21:01.701#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3941#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:54.546323] Cell ef3a2fa4-5559-4d32-8c47-3d60d54444eb creating container for instance 228cefde-7de1-4464-65f3-567e (STDOUT, CELL)#
+#2026 09 11 14:21:01.701#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3941#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:55.468449] Security group rules were updated (STDOUT, CELL)#
+#2026 09 11 14:21:01.701#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3941#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:55.558037] Cell ef3a2fa4-5559-4d32-8c47-3d60d54444eb successfully created container for instance 228cefde-7de1-4464-65f3-567e (STDOUT, CELL)#
+#2026 09 11 14:21:01.701#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3941#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:56.201895] Downloading droplet... (STDOUT, CELL)#
+#2026 09 11 14:21:01.701#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3941#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:20:57.530144] Cell 3aff9cc5-b49c-4ab6-afd4-1541a702fe58 successfully destroyed container for instance 70c045ed-6d35-4ad5-615a-a628 (STDOUT, CELL)#
+#2026 09 11 14:21:21.970#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3315#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:12.210784] Copying droplet into the container failed: stream-in: nstar: error streaming in: exit status 2. Output: tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_cuda.so: Wrote only 6144 of 10240 bytes (STDERR, CELL)#
+#2026 09 11 14:21:21.970#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3315#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:12.210800] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_shared.so: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:21:21.970#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3315#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:12.210802] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_tensorrt.so: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:21:21.970#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3315#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:12.210804] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/onnxruntime_binding.node: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:21:21.970#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3315#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:12.210808] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:21:21.970#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3315#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:12.210810] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:21:21.970#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3315#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:12.210814] tar: ./app/node_modules/onnxruntime-node/lib/backend.ts: Cannot open: No such file or directory (STDERR, CELL)#
+#2026 09 11 14:21:21.970#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3315#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:12.210816] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:21:21.970#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3315#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:18.248367] Cell ef3a2fa4-5559-4d32-8c47-3d60d54444eb stopping instance 228cefde-7de1-4464-65f3-567e (STDOUT, CELL)#
+#2026 09 11 14:21:21.970#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3315#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:18.248410] Cell ef3a2fa4-5559-4d32-8c47-3d60d54444eb destroying container for instance 228cefde-7de1-4464-65f3-567e (STDOUT, CELL)#
+#2026 09 11 14:21:21.970#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3315#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:18.248728] Process has crashed with type: "web" (STDOUT, API)#
+#2026 09 11 14:21:21.970#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3315#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:18.652685] Cell 179eb8c3-cbdc-4064-a233-f18f8e7b23e8 creating container for instance 26713c73-6cb2-4057-401f-92e8 (STDOUT, CELL)#
+#2026 09 11 14:21:21.970#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3315#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:19.476595] Security group rules were updated (STDOUT, CELL)#
+#2026 09 11 14:21:21.970#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3315#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:19.550177] Cell 179eb8c3-cbdc-4064-a233-f18f8e7b23e8 successfully created container for instance 26713c73-6cb2-4057-401f-92e8 (STDOUT, CELL)#
+#2026 09 11 14:21:21.970#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3315#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:19.866810] Cell ef3a2fa4-5559-4d32-8c47-3d60d54444eb successfully destroyed container for instance 228cefde-7de1-4464-65f3-567e (STDOUT, CELL)#
+#2026 09 11 14:21:21.970#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3315#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:20.122298] Downloading droplet... (STDOUT, CELL)#
+#2026 09 11 14:21:42.452#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3658#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:35.672365] Copying droplet into the container failed: stream-in: nstar: error streaming in: exit status 2. Output: tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_cuda.so: Wrote only 6144 of 10240 bytes (STDERR, CELL)#
+#2026 09 11 14:21:42.452#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3658#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:35.672379] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_shared.so: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:21:42.452#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3658#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:35.672382] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_tensorrt.so: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:21:42.452#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3658#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:35.672384] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/onnxruntime_binding.node: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:21:42.452#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3658#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:35.672388] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:21:42.452#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3658#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:35.672390] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:21:42.452#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3658#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:35.672394] tar: ./app/node_modules/onnxruntime-node/lib/backend.ts: Cannot open: No such file or directory (STDERR, CELL)#
+#2026 09 11 14:21:42.452#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3658#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:35.672396] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:21:42.452#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3658#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:40.875519] Cell 179eb8c3-cbdc-4064-a233-f18f8e7b23e8 stopping instance 26713c73-6cb2-4057-401f-92e8 (STDOUT, CELL)#
+#2026 09 11 14:21:42.452#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3658#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:40.875545] Cell 179eb8c3-cbdc-4064-a233-f18f8e7b23e8 destroying container for instance 26713c73-6cb2-4057-401f-92e8 (STDOUT, CELL)#
+#2026 09 11 14:21:42.452#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3658#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:40.893009] Process has crashed with type: "web" (STDOUT, API)#
+#2026 09 11 14:21:52.492#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3672#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:35.672365] Copying droplet into the container failed: stream-in: nstar: error streaming in: exit status 2. Output: tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_cuda.so: Wrote only 6144 of 10240 bytes (STDERR, CELL)#
+#2026 09 11 14:21:52.492#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3672#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:35.672379] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_shared.so: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:21:52.492#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3672#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:35.672382] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_tensorrt.so: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:21:52.492#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3672#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:35.672384] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/onnxruntime_binding.node: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:21:52.492#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3672#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:35.672388] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:21:52.492#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3672#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:35.672390] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:21:52.492#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3672#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:35.672394] tar: ./app/node_modules/onnxruntime-node/lib/backend.ts: Cannot open: No such file or directory (STDERR, CELL)#
+#2026 09 11 14:21:52.492#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3672#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:35.672396] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:21:52.492#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3672#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:40.875519] Cell 179eb8c3-cbdc-4064-a233-f18f8e7b23e8 stopping instance 26713c73-6cb2-4057-401f-92e8 (STDOUT, CELL)#
+#2026 09 11 14:21:52.492#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3672#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:40.875545] Cell 179eb8c3-cbdc-4064-a233-f18f8e7b23e8 destroying container for instance 26713c73-6cb2-4057-401f-92e8 (STDOUT, CELL)#
+#2026 09 11 14:21:52.492#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3672#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:40.893009] Process has crashed with type: "web" (STDOUT, API)#
+#2026 09 11 14:21:52.492#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3672#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:42.619426] Cell 179eb8c3-cbdc-4064-a233-f18f8e7b23e8 successfully destroyed container for instance 26713c73-6cb2-4057-401f-92e8 (STDOUT, CELL)#
+#2026 09 11 14:21:52.492#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3672#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:43.413872] Stopping app with guid 1ffb686e-4da7-4f4e-8273-4041ccbb6419 (STDOUT, API)#
+#2026 09 11 14:21:52.492#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3672#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:43.567107] Starting app with guid 1ffb686e-4da7-4f4e-8273-4041ccbb6419 (STDOUT, API)#
+#2026 09 11 14:21:52.492#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3672#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:43.767743] Cell 3bf62ba2-1f01-4378-a76e-0af2f53bb1c8 creating container for instance 34817e02-6e36-42f3-5624-4b56 (STDOUT, CELL)#
+#2026 09 11 14:21:52.492#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3672#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:44.577068] Security group rules were updated (STDOUT, CELL)#
+#2026 09 11 14:21:52.492#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3672#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:44.658344] Cell 3bf62ba2-1f01-4378-a76e-0af2f53bb1c8 successfully created container for instance 34817e02-6e36-42f3-5624-4b56 (STDOUT, CELL)#
+#2026 09 11 14:21:52.492#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3672#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:45.030291] Downloading droplet... (STDOUT, CELL)#
+#2026 09 11 14:22:02.507#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3991#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:59.940420] Copying droplet into the container failed: stream-in: nstar: error streaming in: exit status 2. Output: tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_cuda.so: Wrote only 6144 of 10240 bytes (STDERR, CELL)#
+#2026 09 11 14:22:02.507#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3991#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:59.940448] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_shared.so: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:22:02.507#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3991#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:59.940453] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_tensorrt.so: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:22:02.507#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3991#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:59.940480] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/onnxruntime_binding.node: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:22:02.507#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3991#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:59.940484] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:22:02.507#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3991#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:59.940486] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:22:02.507#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3991#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:59.940489] tar: ./app/node_modules/onnxruntime-node/lib/backend.ts: Cannot open: No such file or directory (STDERR, CELL)#
+#2026 09 11 14:22:02.507#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3991#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:21:59.940491] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:22:12.577#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3347#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:05.687079] Cell 3bf62ba2-1f01-4378-a76e-0af2f53bb1c8 stopping instance 34817e02-6e36-42f3-5624-4b56 (STDOUT, CELL)#
+#2026 09 11 14:22:12.577#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3347#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:05.687111] Cell 3bf62ba2-1f01-4378-a76e-0af2f53bb1c8 destroying container for instance 34817e02-6e36-42f3-5624-4b56 (STDOUT, CELL)#
+#2026 09 11 14:22:12.577#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3347#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:05.695227] Process has crashed with type: "web" (STDOUT, API)#
+#2026 09 11 14:22:12.577#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3347#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:05.818184] Cell ea4ef640-b40f-4afe-a7d1-21a0bea62ae0 creating container for instance 1e0c0920-31d8-4364-5da5-9c8a (STDOUT, CELL)#
+#2026 09 11 14:22:12.577#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3347#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:06.726063] Security group rules were updated (STDOUT, CELL)#
+#2026 09 11 14:22:12.577#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3347#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:06.815644] Cell ea4ef640-b40f-4afe-a7d1-21a0bea62ae0 successfully created container for instance 1e0c0920-31d8-4364-5da5-9c8a (STDOUT, CELL)#
+#2026 09 11 14:22:12.577#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3347#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:07.458181] Downloading droplet... (STDOUT, CELL)#
+#2026 09 11 14:22:12.577#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3347#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:07.679783] Cell 3bf62ba2-1f01-4378-a76e-0af2f53bb1c8 successfully destroyed container for instance 34817e02-6e36-42f3-5624-4b56 (STDOUT, CELL)#
+#2026 09 11 14:22:32.671#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4011#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:22.691911] Copying droplet into the container failed: stream-in: nstar: error streaming in: exit status 2. Output: tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_cuda.so: Wrote only 6144 of 10240 bytes (STDERR, CELL)#
+#2026 09 11 14:22:32.671#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4011#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:22.691929] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_shared.so: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:22:32.671#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4011#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:22.691932] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_tensorrt.so: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:22:32.671#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4011#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:22.691934] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/onnxruntime_binding.node: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:22:32.671#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4011#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:22.691940] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:22:32.671#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4011#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:22.691944] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:22:32.671#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4011#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:22.691947] tar: ./app/node_modules/onnxruntime-node/lib/backend.ts: Cannot open: No such file or directory (STDERR, CELL)#
+#2026 09 11 14:22:32.671#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4011#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:22.691950] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:22:32.671#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4011#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:28.155170] Cell ea4ef640-b40f-4afe-a7d1-21a0bea62ae0 stopping instance 1e0c0920-31d8-4364-5da5-9c8a (STDOUT, CELL)#
+#2026 09 11 14:22:32.671#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4011#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:28.155211] Cell ea4ef640-b40f-4afe-a7d1-21a0bea62ae0 destroying container for instance 1e0c0920-31d8-4364-5da5-9c8a (STDOUT, CELL)#
+#2026 09 11 14:22:32.671#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4011#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:28.161270] Process has crashed with type: "web" (STDOUT, API)#
+#2026 09 11 14:22:32.671#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4011#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:28.288592] Cell 179eb8c3-cbdc-4064-a233-f18f8e7b23e8 creating container for instance 6c35b91c-25b2-47dc-7c53-7c5c (STDOUT, CELL)#
+#2026 09 11 14:22:32.671#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4011#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:29.828397] Cell ea4ef640-b40f-4afe-a7d1-21a0bea62ae0 successfully destroyed container for instance 1e0c0920-31d8-4364-5da5-9c8a (STDOUT, CELL)#
+#2026 09 11 14:22:32.671#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4011#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:30.295441] Security group rules were updated (STDOUT, CELL)#
+#2026 09 11 14:22:32.671#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4011#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:30.411180] Cell 179eb8c3-cbdc-4064-a233-f18f8e7b23e8 successfully created container for instance 6c35b91c-25b2-47dc-7c53-7c5c (STDOUT, CELL)#
+#2026 09 11 14:22:32.671#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4011#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:31.072379] Downloading droplet... (STDOUT, CELL)#
+#2026 09 11 14:22:52.812#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4021#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:46.023238] Copying droplet into the container failed: stream-in: nstar: error streaming in: exit status 2. Output: tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_cuda.so: Wrote only 6144 of 10240 bytes (STDERR, CELL)#
+#2026 09 11 14:22:52.812#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4021#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:46.023260] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_shared.so: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:22:52.812#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4021#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:46.023263] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_tensorrt.so: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:22:52.812#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4021#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:46.023266] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/onnxruntime_binding.node: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:22:52.812#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4021#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:46.023270] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:22:52.812#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4021#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:46.023272] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:22:52.812#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4021#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:46.023273] tar: ./app/node_modules/onnxruntime-node/lib/backend.ts: Cannot open: No such file or directory (STDERR, CELL)#
+#2026 09 11 14:22:52.812#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4021#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:46.023275] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:22:52.812#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4021#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:51.599008] Cell 179eb8c3-cbdc-4064-a233-f18f8e7b23e8 stopping instance 6c35b91c-25b2-47dc-7c53-7c5c (STDOUT, CELL)#
+#2026 09 11 14:22:52.812#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4021#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:51.599045] Cell 179eb8c3-cbdc-4064-a233-f18f8e7b23e8 destroying container for instance 6c35b91c-25b2-47dc-7c53-7c5c (STDOUT, CELL)#
+#2026 09 11 14:22:52.812#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4021#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:51.625040] Process has crashed with type: "web" (STDOUT, API)#
+#2026 09 11 14:23:02.998#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4018#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:46.023238] Copying droplet into the container failed: stream-in: nstar: error streaming in: exit status 2. Output: tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_cuda.so: Wrote only 6144 of 10240 bytes (STDERR, CELL)#
+#2026 09 11 14:23:02.998#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4018#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:46.023260] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_shared.so: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:23:02.998#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4018#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:46.023263] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_tensorrt.so: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:23:02.998#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4018#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:46.023266] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/onnxruntime_binding.node: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:23:02.998#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4018#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:46.023270] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:23:02.998#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4018#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:46.023272] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:23:02.998#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4018#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:46.023273] tar: ./app/node_modules/onnxruntime-node/lib/backend.ts: Cannot open: No such file or directory (STDERR, CELL)#
+#2026 09 11 14:23:02.998#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4018#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:46.023275] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:23:02.998#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4018#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:51.599008] Cell 179eb8c3-cbdc-4064-a233-f18f8e7b23e8 stopping instance 6c35b91c-25b2-47dc-7c53-7c5c (STDOUT, CELL)#
+#2026 09 11 14:23:02.998#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4018#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:51.599045] Cell 179eb8c3-cbdc-4064-a233-f18f8e7b23e8 destroying container for instance 6c35b91c-25b2-47dc-7c53-7c5c (STDOUT, CELL)#
+#2026 09 11 14:23:02.998#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4018#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:51.625040] Process has crashed with type: "web" (STDOUT, API)#
+#2026 09 11 14:23:02.998#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4018#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:53.184255] Cell 179eb8c3-cbdc-4064-a233-f18f8e7b23e8 successfully destroyed container for instance 6c35b91c-25b2-47dc-7c53-7c5c (STDOUT, CELL)#
+#2026 09 11 14:23:02.998#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4018#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:53.317924] Stopping app with guid 1ffb686e-4da7-4f4e-8273-4041ccbb6419 (STDOUT, API)#
+#2026 09 11 14:23:02.998#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4018#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:53.477547] Starting app with guid 1ffb686e-4da7-4f4e-8273-4041ccbb6419 (STDOUT, API)#
+#2026 09 11 14:23:02.998#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4018#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:53.726515] Cell 179eb8c3-cbdc-4064-a233-f18f8e7b23e8 creating container for instance c9c31d3f-84e0-4fa4-59a4-8486 (STDOUT, CELL)#
+#2026 09 11 14:23:02.998#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4018#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:54.556629] Security group rules were updated (STDOUT, CELL)#
+#2026 09 11 14:23:02.998#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4018#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:54.638542] Cell 179eb8c3-cbdc-4064-a233-f18f8e7b23e8 successfully created container for instance c9c31d3f-84e0-4fa4-59a4-8486 (STDOUT, CELL)#
+#2026 09 11 14:23:02.998#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4018#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:22:55.892263] Downloading droplet... (STDOUT, CELL)#
+#2026 09 11 14:23:23.124#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3403#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:13.298236] Copying droplet into the container failed: stream-in: nstar: error streaming in: exit status 2. Output: tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_cuda.so: Wrote only 6144 of 10240 bytes (STDERR, CELL)#
+#2026 09 11 14:23:23.124#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3403#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:13.298251] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_shared.so: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:23:23.124#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3403#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:13.298269] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_tensorrt.so: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:23:23.124#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3403#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:13.298276] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/onnxruntime_binding.node: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:23:23.124#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3403#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:13.298282] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:23:23.124#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3403#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:13.298291] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:23:23.124#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3403#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:13.298294] tar: ./app/node_modules/onnxruntime-node/lib/backend.ts: Cannot open: No such file or directory (STDERR, CELL)#
+#2026 09 11 14:23:23.124#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3403#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:13.298297] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:23:23.124#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3403#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:18.666589] Cell 179eb8c3-cbdc-4064-a233-f18f8e7b23e8 stopping instance c9c31d3f-84e0-4fa4-59a4-8486 (STDOUT, CELL)#
+#2026 09 11 14:23:23.124#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3403#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:18.666624] Cell 179eb8c3-cbdc-4064-a233-f18f8e7b23e8 destroying container for instance c9c31d3f-84e0-4fa4-59a4-8486 (STDOUT, CELL)#
+#2026 09 11 14:23:23.124#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3403#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:18.692616] Process has crashed with type: "web" (STDOUT, API)#
+#2026 09 11 14:23:23.124#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3403#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:18.965640] Cell ea4ef640-b40f-4afe-a7d1-21a0bea62ae0 creating container for instance 430a7e19-66a0-46cf-5217-f2ad (STDOUT, CELL)#
+#2026 09 11 14:23:23.124#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3403#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:19.859046] Security group rules were updated (STDOUT, CELL)#
+#2026 09 11 14:23:23.124#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3403#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:19.938502] Cell ea4ef640-b40f-4afe-a7d1-21a0bea62ae0 successfully created container for instance 430a7e19-66a0-46cf-5217-f2ad (STDOUT, CELL)#
+#2026 09 11 14:23:23.124#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3403#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:20.420328] Downloading droplet... (STDOUT, CELL)#
+#2026 09 11 14:23:23.124#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3403#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:20.534477] Cell 179eb8c3-cbdc-4064-a233-f18f8e7b23e8 successfully destroyed container for instance c9c31d3f-84e0-4fa4-59a4-8486 (STDOUT, CELL)#
+#2026 09 11 14:23:43.399#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4053#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:35.307317] Copying droplet into the container failed: stream-in: nstar: error streaming in: exit status 2. Output: tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_cuda.so: Wrote only 6144 of 10240 bytes (STDERR, CELL)#
+#2026 09 11 14:23:43.399#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4053#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:35.307336] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_shared.so: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:23:43.399#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4053#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:35.307342] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_tensorrt.so: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:23:43.399#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4053#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:35.307345] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/onnxruntime_binding.node: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:23:43.399#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4053#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:35.307349] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:23:43.399#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4053#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:35.307351] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:23:43.399#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4053#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:35.307353] tar: ./app/node_modules/onnxruntime-node/lib/backend.ts: Cannot open: No such file or directory (STDERR, CELL)#
+#2026 09 11 14:23:43.399#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4053#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:35.307356] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:23:43.399#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4053#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:40.761927] Cell ea4ef640-b40f-4afe-a7d1-21a0bea62ae0 stopping instance 430a7e19-66a0-46cf-5217-f2ad (STDOUT, CELL)#
+#2026 09 11 14:23:43.399#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4053#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:40.761958] Cell ea4ef640-b40f-4afe-a7d1-21a0bea62ae0 destroying container for instance 430a7e19-66a0-46cf-5217-f2ad (STDOUT, CELL)#
+#2026 09 11 14:23:43.399#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4053#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:40.770209] Process has crashed with type: "web" (STDOUT, API)#
+#2026 09 11 14:23:43.399#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4053#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:40.907164] Cell 3bf62ba2-1f01-4378-a76e-0af2f53bb1c8 creating container for instance d02e06b2-46b7-43e3-5927-f25f (STDOUT, CELL)#
+#2026 09 11 14:23:43.399#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4053#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:41.720835] Security group rules were updated (STDOUT, CELL)#
+#2026 09 11 14:23:43.399#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4053#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:41.814776] Cell 3bf62ba2-1f01-4378-a76e-0af2f53bb1c8 successfully created container for instance d02e06b2-46b7-43e3-5927-f25f (STDOUT, CELL)#
+#2026 09 11 14:23:43.399#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4053#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:42.294474] Cell ea4ef640-b40f-4afe-a7d1-21a0bea62ae0 successfully destroyed container for instance 430a7e19-66a0-46cf-5217-f2ad (STDOUT, CELL)#
+#2026 09 11 14:23:43.399#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4053#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:42.543017] Downloading droplet... (STDOUT, CELL)#
+#2026 09 11 14:24:03.758#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4068#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:58.385047] Copying droplet into the container failed: stream-in: nstar: error streaming in: exit status 2. Output: tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_cuda.so: Wrote only 6144 of 10240 bytes (STDERR, CELL)#
+#2026 09 11 14:24:03.758#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4068#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:58.385066] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_shared.so: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:24:03.758#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4068#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:58.385071] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_tensorrt.so: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:24:03.758#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4068#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:58.385075] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/onnxruntime_binding.node: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:24:03.758#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4068#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:58.385080] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:24:03.758#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4068#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:58.385082] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:24:03.758#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4068#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:58.385084] tar: ./app/node_modules/onnxruntime-node/lib/backend.ts: Cannot open: No such file or directory (STDERR, CELL)#
+#2026 09 11 14:24:03.758#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4068#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:23:58.385088] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:24:13.874#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4080#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:03.973454] Cell 3bf62ba2-1f01-4378-a76e-0af2f53bb1c8 stopping instance d02e06b2-46b7-43e3-5927-f25f (STDOUT, CELL)#
+#2026 09 11 14:24:13.874#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4080#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:03.973487] Cell 3bf62ba2-1f01-4378-a76e-0af2f53bb1c8 destroying container for instance d02e06b2-46b7-43e3-5927-f25f (STDOUT, CELL)#
+#2026 09 11 14:24:13.874#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4080#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:04.003603] Process has crashed with type: "web" (STDOUT, API)#
+#2026 09 11 14:24:13.874#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4080#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:05.621484] Cell 3bf62ba2-1f01-4378-a76e-0af2f53bb1c8 successfully destroyed container for instance d02e06b2-46b7-43e3-5927-f25f (STDOUT, CELL)#
+#2026 09 11 14:24:24.178#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4087#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:03.973454] Cell 3bf62ba2-1f01-4378-a76e-0af2f53bb1c8 stopping instance d02e06b2-46b7-43e3-5927-f25f (STDOUT, CELL)#
+#2026 09 11 14:24:24.178#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4087#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:03.973487] Cell 3bf62ba2-1f01-4378-a76e-0af2f53bb1c8 destroying container for instance d02e06b2-46b7-43e3-5927-f25f (STDOUT, CELL)#
+#2026 09 11 14:24:24.178#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4087#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:04.003603] Process has crashed with type: "web" (STDOUT, API)#
+#2026 09 11 14:24:24.178#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4087#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:05.621484] Cell 3bf62ba2-1f01-4378-a76e-0af2f53bb1c8 successfully destroyed container for instance d02e06b2-46b7-43e3-5927-f25f (STDOUT, CELL)#
+#2026 09 11 14:24:24.178#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4087#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:15.520677] Stopping app with guid 1ffb686e-4da7-4f4e-8273-4041ccbb6419 (STDOUT, API)#
+#2026 09 11 14:24:24.178#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4087#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:15.669134] Starting app with guid 1ffb686e-4da7-4f4e-8273-4041ccbb6419 (STDOUT, API)#
+#2026 09 11 14:24:24.178#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4087#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:15.919321] Cell c33ece7b-8a56-4114-8532-577f5c2112ca creating container for instance e4983a6c-8147-4405-590b-cb07 (STDOUT, CELL)#
+#2026 09 11 14:24:24.178#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4087#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:16.723563] Security group rules were updated (STDOUT, CELL)#
+#2026 09 11 14:24:24.178#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4087#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:16.800647] Cell c33ece7b-8a56-4114-8532-577f5c2112ca successfully created container for instance e4983a6c-8147-4405-590b-cb07 (STDOUT, CELL)#
+#2026 09 11 14:24:24.178#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4087#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:17.278622] Downloading droplet... (STDOUT, CELL)#
+#2026 09 11 14:24:34.311#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4090#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:32.234300] Copying droplet into the container failed: stream-in: nstar: error streaming in: exit status 2. Output: tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_cuda.so: Wrote only 6144 of 10240 bytes (STDERR, CELL)#
+#2026 09 11 14:24:34.311#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4090#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:32.234320] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_shared.so: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:24:34.311#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4090#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:32.234323] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_tensorrt.so: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:24:34.311#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4090#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:32.234326] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/onnxruntime_binding.node: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:24:34.311#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4090#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:32.234330] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:24:34.311#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4090#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:32.234334] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:24:34.311#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4090#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:32.234336] tar: ./app/node_modules/onnxruntime-node/lib/backend.ts: Cannot open: No such file or directory (STDERR, CELL)#
+#2026 09 11 14:24:34.311#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4090#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:32.234338] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:24:44.453#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4097#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:37.585406] Cell c33ece7b-8a56-4114-8532-577f5c2112ca stopping instance e4983a6c-8147-4405-590b-cb07 (STDOUT, CELL)#
+#2026 09 11 14:24:44.453#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4097#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:37.585454] Cell c33ece7b-8a56-4114-8532-577f5c2112ca destroying container for instance e4983a6c-8147-4405-590b-cb07 (STDOUT, CELL)#
+#2026 09 11 14:24:44.453#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4097#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:37.590438] Process has crashed with type: "web" (STDOUT, API)#
+#2026 09 11 14:24:44.453#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4097#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:37.726755] Cell ef3a2fa4-5559-4d32-8c47-3d60d54444eb creating container for instance 201d490d-b1d4-403a-7123-7c23 (STDOUT, CELL)#
+#2026 09 11 14:24:44.453#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4097#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:38.651984] Security group rules were updated (STDOUT, CELL)#
+#2026 09 11 14:24:44.453#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4097#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:38.745633] Cell ef3a2fa4-5559-4d32-8c47-3d60d54444eb successfully created container for instance 201d490d-b1d4-403a-7123-7c23 (STDOUT, CELL)#
+#2026 09 11 14:24:44.453#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4097#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:39.088253] Downloading droplet... (STDOUT, CELL)#
+#2026 09 11 14:24:44.453#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4097#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:40.620114] Cell c33ece7b-8a56-4114-8532-577f5c2112ca successfully destroyed container for instance e4983a6c-8147-4405-590b-cb07 (STDOUT, CELL)#
+#2026 09 11 14:24:54.389#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3469#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:53.948086] Copying droplet into the container failed: stream-in: nstar: error streaming in: exit status 2. Output: tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_cuda.so: Wrote only 6144 of 10240 bytes (STDERR, CELL)#
+#2026 09 11 14:24:54.389#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3469#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:53.948108] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_shared.so: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:24:54.389#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3469#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:53.948111] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_tensorrt.so: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:24:54.389#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3469#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:53.948113] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/onnxruntime_binding.node: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:24:54.389#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3469#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:53.948117] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:24:54.389#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3469#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:53.948119] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:24:54.389#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3469#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:53.948121] tar: ./app/node_modules/onnxruntime-node/lib/backend.ts: Cannot open: No such file or directory (STDERR, CELL)#
+#2026 09 11 14:24:54.389#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3469#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:53.948123] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:25:04.503#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4110#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:59.642089] Cell ef3a2fa4-5559-4d32-8c47-3d60d54444eb stopping instance 201d490d-b1d4-403a-7123-7c23 (STDOUT, CELL)#
+#2026 09 11 14:25:04.503#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4110#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:59.642126] Cell ef3a2fa4-5559-4d32-8c47-3d60d54444eb destroying container for instance 201d490d-b1d4-403a-7123-7c23 (STDOUT, CELL)#
+#2026 09 11 14:25:04.503#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4110#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:59.646393] Process has crashed with type: "web" (STDOUT, API)#
+#2026 09 11 14:25:04.503#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4110#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:24:59.792391] Cell c33ece7b-8a56-4114-8532-577f5c2112ca creating container for instance 5c121201-fd39-472e-69a0-0078 (STDOUT, CELL)#
+#2026 09 11 14:25:04.503#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4110#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:25:00.659602] Security group rules were updated (STDOUT, CELL)#
+#2026 09 11 14:25:04.503#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4110#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:25:00.737312] Cell c33ece7b-8a56-4114-8532-577f5c2112ca successfully created container for instance 5c121201-fd39-472e-69a0-0078 (STDOUT, CELL)#
+#2026 09 11 14:25:04.503#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4110#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:25:01.011641] Downloading droplet... (STDOUT, CELL)#
+#2026 09 11 14:25:04.503#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4110#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:25:01.287268] Cell ef3a2fa4-5559-4d32-8c47-3d60d54444eb successfully destroyed container for instance 201d490d-b1d4-403a-7123-7c23 (STDOUT, CELL)#
+#2026 09 11 14:25:04.503#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4110#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:25:03.969559] Copying droplet into the container failed: stream-in: nstar: error streaming in: exit status 2. Output: tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_cuda.so: Wrote only 6144 of 10240 bytes (STDERR, CELL)#
+#2026 09 11 14:25:04.503#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4110#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:25:03.969577] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_shared.so: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:25:04.503#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4110#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:25:03.969580] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/libonnxruntime_providers_tensorrt.so: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:25:04.503#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4110#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:25:03.969583] tar: ./app/node_modules/onnxruntime-node/bin/napi-v3/linux/x64/onnxruntime_binding.node: Cannot open: No space left on device (STDERR, CELL)#
+#2026 09 11 14:25:04.503#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4110#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:25:03.969586] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:25:04.503#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4110#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:25:03.969588] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:25:04.503#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4110#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:25:03.969590] tar: ./app/node_modules/onnxruntime-node/lib/backend.ts: Cannot open: No such file or directory (STDERR, CELL)#
+#2026 09 11 14:25:04.503#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-4110#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:25:03.969592] tar: ./app/node_modules/onnxruntime-node/lib: Cannot mkdir: No space left on device (STDERR, CELL)#
+#2026 09 11 14:25:14.671#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3479#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:25:09.358906] Cell c33ece7b-8a56-4114-8532-577f5c2112ca stopping instance 5c121201-fd39-472e-69a0-0078 (STDOUT, CELL)#
+#2026 09 11 14:25:14.671#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3479#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:25:09.358936] Cell c33ece7b-8a56-4114-8532-577f5c2112ca destroying container for instance 5c121201-fd39-472e-69a0-0078 (STDOUT, CELL)#
+#2026 09 11 14:25:14.671#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3479#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:25:09.394951] Process has crashed with type: "web" (STDOUT, API)#
+#2026 09 11 14:25:14.671#Z#DEBUG#88040301-adeb-11f1-97e5-eeee0a8730ad.workorder-ai-srv#flowable-async-job-executor-thread-3479#
+[PollStartAppStatusExecution] 1ffb686e-4da7-4f4e-8273-4041ccbb6419 [2026-09-11T14:25:12.512150] Cell c33ece7b-8a56-4114-8532-577f5c2112ca successfully destroyed container for instance 5c121201-fd39-472e-69a0-0078 (STDOUT, CELL)#
