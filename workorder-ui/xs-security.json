@@ -1,7 +1,9 @@
 {
   "xsappname": "commindsetagentuiworkorderui",
   "tenant-mode": "dedicated",
-  "description": "Security profile of called application",
   "scopes": [],
-  "role-templates": []
+  "role-templates": [],
+  "oauth2-configuration": {
+    "grant-types": ["client_credentials"]
+  }
 }

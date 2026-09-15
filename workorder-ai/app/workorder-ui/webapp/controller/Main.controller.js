@@ -1,4 +1,3 @@
-
 sap.ui.define([
     "sap/ui/core/mvc/Controller",
     "sap/ui/model/json/JSONModel",
@@ -8,11 +7,10 @@ sap.ui.define([
     JSONModel,
     MessageToast
 ) {
-
     "use strict";
 
-    return Controller.extend(
-        "com.mindset.agent.workorderui.controller.Main",
+     return Controller.extend(
+        "com.mindset.agent.ui.workorderui.controller.Main",
         {
 
             /*
@@ -125,20 +123,71 @@ sap.ui.define([
                 try {
 
                     /*
-                     * Call CAP service "/odata/v4/work-order-agent/ask",
+                     * Fetch a CSRF token first.
+                     *
+                     * A GET/HEAD request with "X-CSRF-Token: Fetch"
+                     * returns a token (and a session cookie) that
+                     * must be replayed on the following state-changing
+                     * (POST/PUT/DELETE) request. Without this, a
+                     * CSRF-protected route responds with 403 Forbidden.
                      */
 
+                    let csrfToken = null;
+
+                    try {
+                        const sUrl = this.getOwnerComponent().getModel().sServiceUrl + "ask"
+                        const tokenResponse =
+                            await fetch(
+                                sUrl || "/odata/v4/work-order-agent/$metadata",
+                                {
+                                    method: "GET",
+                                    headers: {
+                                        "X-CSRF-Token": "Fetch"
+                                    },
+                                    credentials: "same-origin"
+                                }
+                            );
+
+                        csrfToken =
+                            tokenResponse.headers.get(
+                                "X-CSRF-Token"
+                            );
+
+                    } catch (tokenError) {
+
+                        /*
+                         * If the token pre-flight itself fails,
+                         * don't block the actual call - some
+                         * routes may not require CSRF at all.
+                         */
+
+                        console.warn(
+                            "CSRF token fetch failed:",
+                            tokenError
+                        );
+
+                    }
+
+                    /*
+                     * Call CAP service "/odata/v4/work-order-agent/ask",
+                     */
+                    const sUrl = this.getOwnerComponent().getModel().sServiceUrl + "ask"
                     const response =
                         await fetch(
-                            "/odata/v4/work-order-agent/ask",
+                            sUrl || "/odata/v4/work-order-agent/ask",
                             {
 
                                 method: "POST",
 
                                 headers: {
                                     "Content-Type":
-                                        "application/json"
+                                        "application/json",
+                                    ...(csrfToken && {
+                                        "X-CSRF-Token": csrfToken
+                                    })
                                 },
+
+                                credentials: "same-origin",
 
                                 body: JSON.stringify({
                                     question: question
@@ -403,5 +452,4 @@ sap.ui.define([
         }
 
     );
-
 });
