@@ -1,0 +1,6 @@
+ID,sku,name,category,price,currency,stock
+aaaaaaaa-0000-0000-0000-000000000001,HW-100,Edge Gateway,Hardware,1200.00,USD,45
+aaaaaaaa-0000-0000-0000-000000000002,HW-200,Sensor Array,Hardware,340.00,USD,8
+aaaaaaaa-0000-0000-0000-000000000003,SW-050,Fleet Analytics,Software,5000.00,USD,999
+aaaaaaaa-0000-0000-0000-000000000004,HW-310,Ruggedized Tablet,Hardware,890.00,USD,3
+aaaaaaaa-0000-0000-0000-000000000005,SV-010,Onsite Commissioning,Service,2400.00,USD,100

@@ -11,17 +11,28 @@
   },
   "devDependencies": {
     "@cap-js/sqlite": "^3",
-    "@sap/cds-dk": "^10"
+    "@sap/cds-dk": "^10",
+    "cds-plugin-ui5": "^0.17.0",
+    "mbt": "^1.2.49",
+    "rimraf": "^5.0.5"
   },
   "scripts": {
-    "start": "cds-serve"
+    "start": "cds-serve",
+    "watch-workorder-ui": "cds watch --open com.mindset.agent.workorderui/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "undeploy": "cf undeploy workorder-ai --delete-services --delete-service-keys --delete-service-brokers",
+    "build": "rimraf resources mta_archives && mbt build --mtar archive",
+    "deploy": "cf deploy mta_archives/archive.mtar --retries 1"
   },
   "private": true,
   "cds": {
     "requires": {
       "[production]": {
         "auth": "mocked"
-      }
+      },
+      "destinations": true
     }
-  }
+  },
+  "workspaces": [
+    "app/*"
+  ]
 }

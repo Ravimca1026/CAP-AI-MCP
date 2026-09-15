@@ -1,0 +1,1 @@
+using WorkOrderService as service from '../../srv/work-order-service';

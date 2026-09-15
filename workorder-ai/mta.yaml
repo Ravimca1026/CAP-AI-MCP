@@ -1,57 +1,142 @@
 _schema-version: 3.3.0
 ID: workorder-ai
+description: A simple CAP project.
 version: 1.0.0
-description: "A simple CAP project."
+modules:
+- name: workorder-ai-srv
+  type: nodejs
+  path: gen/srv
+  requires:
+  - name: workorder-ai-auth
+  - name: workorder-ai-db
+  - name: workorder-ai-destination-service
+  provides:
+  - name: srv-api
+    properties:
+      srv-url: ${default-url}
+  parameters:
+    buildpack: nodejs_buildpack
+    instances: 1
+  build-parameters:
+    builder: npm-ci
+- name: workorder-ai-db-deployer
+  type: hdb
+  path: gen/db
+  requires:
+  - name: workorder-ai-db
+  parameters:
+    buildpack: nodejs_buildpack
+- name: workorder-ai-app-content
+  type: com.sap.application.content
+  path: .
+  requires:
+  - name: workorder-ai-repo-host
+    parameters:
+      content-target: true
+  build-parameters:
+    build-result: resources
+    requires:
+    - artifacts:
+      - commindsetagentworkorderui.zip
+      name: commindsetagentworkorderui
+      target-path: resources/
+- name: commindsetagentworkorderui
+  type: html5
+  path: app/workorder-ui
+  build-parameters:
+    build-result: dist
+    builder: custom
+    commands:
+    - npm install
+    - npm run build:cf
+    supported-platforms: []
+- name: workorder-ai-destination-service-content
+  type: com.sap.application.content
+  requires:
+  - name: workorder-ai-destination-service
+    parameters:
+      content-target: true
+  - name: workorder-ai-repo-host
+    parameters:
+      service-key:
+        name: workorder-ai-repo-host-key
+  - name: workorder-ai-auth
+    parameters:
+      service-key:
+        name: workorder-ai-auth-key
+  parameters:
+    content:
+      instance:
+        destinations:
+        - Name: myworkorderagentui_workorder_ai_repo_host
+          ServiceInstanceName: workorder-ai-html5-service
+          ServiceKeyName: workorder-ai-repo-host-key
+          sap.cloud.service: myworkorderagentui
+        - Authentication: OAuth2UserTokenExchange
+          Name: myworkorderagentui_workorder_ai_auth
+          ServiceInstanceName: workorder-ai-auth
+          ServiceKeyName: workorder-ai-auth-key
+          sap.cloud.service: myworkorderagentui
+        existing_destinations_policy: ignore
+  build-parameters:
+    no-source: true
+resources:
+- name: workorder-ai-auth
+  type: org.cloudfoundry.managed-service
+  parameters:
+    config:
+      oauth2-configuration:
+        credential-types:
+        - binding-secret
+        - x509
+      tenant-mode: dedicated
+      xsappname: workorder-ai-${org}-${space}
+    path: ./xs-security.json
+    service: xsuaa
+    service-plan: application
+- name: workorder-ai-db
+  type: com.sap.xs.hdi-container
+  parameters:
+    service: hana
+    service-plan: hdi-shared
+- name: workorder-ai-repo-host
+  type: org.cloudfoundry.managed-service
+  parameters:
+    service: html5-apps-repo
+    service-name: workorder-ai-html5-service
+    service-plan: app-host
+- name: workorder-ai-destination-service
+  type: org.cloudfoundry.managed-service
+  parameters:
+    config:
+      HTML5Runtime_enabled: true
+      init_data:
+        instance:
+          destinations:
+          - Authentication: NoAuthentication
+            Name: ui5
+            ProxyType: Internet
+            Type: HTTP
+            URL: https://ui5.sap.com
+            
+          - Name: workorder-ai-srv
+            URL: ~{srv-api/srv-url}
+            Authentication: OAuth2UserTokenExchange
+            ProxyType: Internet
+            Type: HTTP
+            HTML5.DynamicDestination: true
+            HTML5.Timeout: 60000
+          existing_destinations_policy: update
+    service: destination
+    service-plan: lite
+  requires:
+  - name: srv-api
 parameters:
+  deploy_mode: html5-repo
   enable-parallel-deployments: true
 build-parameters:
   before-all:
-    - builder: custom
-      commands:
-        - npm ci
-        - npx cds build --production
-modules:
-  - name: workorder-ai-srv
-    type: nodejs
-    path: gen/srv
-    parameters:
-      instances: 1
-      buildpack: nodejs_buildpack
-      # disk-quota: 1G
-    build-parameters:
-      builder: npm-ci
-    provides:
-      - name: srv-api # required by consumers of CAP services (e.g. approuter)
-        properties:
-          srv-url: ${default-url}
-    requires:
-      - name: workorder-ai-auth
-      - name: workorder-ai-db
-
-  - name: workorder-ai-db-deployer
-    type: hdb
-    path: gen/db
-    parameters:
-      buildpack: nodejs_buildpack
-    requires:
-      - name: workorder-ai-db
-
-resources:
-  - name: workorder-ai-auth
-    type: org.cloudfoundry.managed-service
-    parameters:
-      service: xsuaa
-      service-plan: application
-      path: ./xs-security.json
-      config:
-        xsappname: workorder-ai-${org}-${space}
-        tenant-mode: dedicated
-        oauth2-configuration:
-          credential-types:
-            - "binding-secret"
-            - "x509"
-  - name: workorder-ai-db
-    type: com.sap.xs.hdi-container
-    parameters:
-      service: hana
-      service-plan: hdi-shared
+  - builder: custom
+    commands:
+    - npm ci
+    - npx cds build --production

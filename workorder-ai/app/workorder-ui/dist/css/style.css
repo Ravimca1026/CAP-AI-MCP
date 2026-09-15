@@ -1,0 +1,274 @@
+
+/* =========================================
+   MAIN PAGE
+   ========================================= */
+
+.joulePage {
+    background: #f7f7f7;
+}
+
+
+/* =========================================
+   HEADER
+   ========================================= */
+
+.headerIcon {
+    margin-right: 0.6rem;
+}
+
+.headerTitle {
+    margin-left: 0.2rem;
+}
+
+
+/* =========================================
+   CHAT CONTAINER
+   ========================================= */
+
+.chatContainer {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem 2rem 1rem;
+}
+
+
+/* =========================================
+   WELCOME
+   ========================================= */
+
+.welcomeBox {
+    padding: 3rem 1rem 2rem 1rem;
+}
+
+.welcomeIcon {
+    opacity: 0.8;
+}
+
+.welcomeTitle {
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.welcomeSubtitle {
+    margin-top: 0.5rem;
+    opacity: 0.7;
+    font-size: 1rem;
+}
+
+
+/* =========================================
+   CHAT LIST
+   ========================================= */
+
+.chatList {
+    background: transparent;
+    border: none;
+}
+
+.chatList .sapMLIB {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+
+/* =========================================
+   USER MESSAGE
+   ========================================= */
+
+.userMessage {
+    max-width: 70%;
+    padding: 0.8rem 1rem;
+    margin: 0.5rem 0 0.5rem auto;
+
+    border-radius: 1.2rem 1.2rem 0.3rem 1.2rem;
+
+    background: #e8f0fe;
+
+    color: #1b1b1b;
+}
+
+
+/* =========================================
+   ASSISTANT MESSAGE
+   ========================================= */
+
+.assistantMessage {
+    max-width: 80%;
+    padding: 1rem;
+
+    margin: 0.5rem auto 0.5rem 0;
+
+    border-radius: 1.2rem 1.2rem 1.2rem 0.3rem;
+
+    background: #ffffff;
+
+    border: 1px solid #e5e5e5;
+
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+
+.assistantMessageIcon {
+    margin-right: 0.5rem;
+    opacity: 0.8;
+}
+
+
+.assistantName {
+    font-weight: 600;
+}
+
+
+.assistantText {
+    line-height: 1.5;
+}
+
+
+/* =========================================
+   LOADING
+   ========================================= */
+
+.loadingBox {
+    padding: 1rem;
+
+    margin-top: 0.5rem;
+
+    background: #ffffff;
+
+    border-radius: 1rem;
+
+    border: 1px solid #e5e5e5;
+}
+
+
+.loadingText {
+    margin-left: 0.7rem;
+    opacity: 0.7;
+}
+
+
+/* =========================================
+   RESULTS
+   ========================================= */
+
+.resultsBox {
+    margin-top: 1.5rem;
+
+    padding: 1rem;
+
+    background: #ffffff;
+
+    border-radius: 1rem;
+
+    border: 1px solid #e5e5e5;
+
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+
+.resultsHeader {
+    padding-bottom: 0.75rem;
+}
+
+
+/* =========================================
+   WORK ORDER TABLE
+   ========================================= */
+
+.workOrderTable {
+    width: 100%;
+}
+
+
+.workOrderTable .sapMListTblHeaderCell {
+    font-weight: 600;
+}
+
+
+.workOrderTable .sapMListTblRow {
+    min-height: 3.5rem;
+}
+
+
+/* =========================================
+   SUGGESTIONS
+   ========================================= */
+
+.suggestionsBox {
+    margin-top: 1.5rem;
+}
+
+
+.suggestionsTitle {
+    font-weight: 600;
+    margin-bottom: 0.7rem;
+    opacity: 0.8;
+}
+
+
+.suggestionsContainer {
+    gap: 0.5rem;
+}
+
+
+.suggestionButton {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+/* =========================================
+   FOOTER / INPUT
+   ========================================= */
+
+.chatToolbar {
+    padding: 0.7rem 1rem;
+
+    background: #ffffff;
+
+    border-top: 1px solid #e5e5e5;
+}
+
+
+.chatInput {
+    border-radius: 1.5rem;
+}
+
+
+.sendButton {
+    margin-left: 0.5rem;
+}
+
+
+/* =========================================
+   RESPONSIVE
+   ========================================= */
+
+@media (max-width: 600px) {
+
+    .chatContainer {
+        padding: 0 0.5rem 1rem 0.5rem;
+    }
+
+
+    .welcomeBox {
+        padding: 2rem 0.5rem 1rem 0.5rem;
+    }
+
+
+    .userMessage {
+        max-width: 85%;
+    }
+
+
+    .assistantMessage {
+        max-width: 90%;
+    }
+
+
+    .resultsBox {
+        padding: 0.5rem;
+    }
+
+}

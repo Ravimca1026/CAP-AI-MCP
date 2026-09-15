@@ -1,0 +1,455 @@
+<mvc:View
+    controllerName="com.mindset.agent.workorderui.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    displayBlock="true">
+
+    <Page
+        id="mainPage"
+        class="joulePage"
+        showHeader="false">
+
+        <content>
+
+            <!-- ================================================= -->
+            <!-- HEADER -->
+            <!-- ================================================= -->
+
+            <HBox
+                class="jouleHeader"
+                width="100%"
+                alignItems="Center"
+                justifyContent="SpaceBetween">
+
+                <HBox alignItems="Center">
+
+                    <core:Icon
+                        src="sap-icon://wrench"
+                        size="1.4rem"
+                        class="headerIcon" />
+
+                    <VBox>
+                        <Title
+                            text="Work Order Assistant"
+                            level="H2"
+                            class="headerTitle" />
+
+                        <Text
+                            text="AI-powered Work Order support"
+                            class="headerSubtitle" />
+                    </VBox>
+
+                </HBox>
+
+                <HBox
+                    alignItems="Center"
+                    class="onlineStatus">
+
+                    <core:Icon
+                        src="sap-icon://status-positive"
+                        size="0.7rem" />
+
+                    <Text
+                        text="Online"
+                        class="onlineText" />
+
+                </HBox>
+
+            </HBox>
+
+
+            <!-- ================================================= -->
+            <!-- CHAT AREA -->
+            <!-- ================================================= -->
+
+            <VBox
+                id="chatContainer"
+                class="chatContainer"
+                width="100%">
+
+                <!-- Welcome Message -->
+
+                <VBox
+                    id="welcomeBox"
+                    class="welcomeBox"
+                    visible="{= ${/messages}.length === 1 }"
+                    alignItems="Center">
+
+                    <core:Icon
+                        src="sap-icon://discussion-2"
+                        size="3rem"
+                        class="welcomeIcon" />
+
+                    <Title
+                        text="How can I help?"
+                        level="H2"
+                        class="welcomeTitle" />
+
+                    <Text
+                        text="Ask me anything about your Work Orders."
+                        class="welcomeSubtitle" />
+
+                </VBox>
+
+
+                <!-- ================================================= -->
+                <!-- CHAT MESSAGES -->
+                <!-- ================================================= -->
+
+                <List
+                    id="chatList"
+                    items="{/messages}"
+                    showSeparators="None"
+                    class="chatList">
+
+                    <CustomListItem>
+
+                        <VBox width="100%">
+
+                            <!-- ============================== -->
+                            <!-- USER MESSAGE -->
+                            <!-- ============================== -->
+
+                            <HBox
+                                width="100%"
+                                justifyContent="End"
+                                visible="{= ${role} === 'user' }"
+                                class="userMessageRow">
+
+                                <VBox
+                                    class="userMessage">
+
+                                    <Text
+                                        text="{text}"
+                                        wrapping="true"
+                                        class="userMessageText" />
+
+                                </VBox>
+
+                            </HBox>
+
+
+                            <!-- ============================== -->
+                            <!-- ASSISTANT MESSAGE -->
+                            <!-- ============================== -->
+
+                            <HBox
+                                width="100%"
+                                justifyContent="Start"
+                                visible="{= ${role} === 'assistant' }"
+                                class="assistantMessageRow">
+
+                                <HBox
+                                    class="assistantMessage"
+                                    alignItems="Start">
+
+                                    <!-- Assistant Icon -->
+
+                                    <VBox
+                                        class="assistantMessageIcon"
+                                        alignItems="Center"
+                                        justifyContent="Center">
+
+                                        <core:Icon
+                                            src="sap-icon://discussion-2"
+                                            size="1rem" />
+
+                                    </VBox>
+
+
+                                    <!-- Assistant Content -->
+
+                                    <VBox>
+
+                                        <Text
+                                            text="Work Order Assistant"
+                                            class="assistantName" />
+
+                                        <Text
+                                            text="{text}"
+                                            wrapping="true"
+                                            class="assistantText" />
+
+                                    </VBox>
+
+                                </HBox>
+
+                            </HBox>
+
+                        </VBox>
+
+                    </CustomListItem>
+
+                </List>
+
+
+                <!-- ================================================= -->
+                <!-- LOADING -->
+                <!-- ================================================= -->
+
+                <HBox
+                    id="loadingBox"
+                    visible="{/loading}"
+                    class="loadingBox"
+                    alignItems="Center">
+
+                    <core:Icon
+                        src="sap-icon://synchronize"
+                        size="1rem"
+                        class="loadingIcon" />
+
+                    <Text
+                        text="Thinking..."
+                        class="loadingText" />
+
+                </HBox>
+
+
+                <!-- ================================================= -->
+                <!-- WORK ORDER RESULTS -->
+                <!-- ================================================= -->
+
+                <VBox
+                    id="resultsBox"
+                    visible="{= ${/workOrders}.length > 0 }"
+                    class="resultsBox"
+                    width="100%">
+
+                    <!-- Results Header -->
+
+                    <HBox
+                        class="resultsHeader"
+                        alignItems="Center"
+                        justifyContent="SpaceBetween">
+
+                        <HBox alignItems="Center">
+
+                            <core:Icon
+                                src="sap-icon://list"
+                                size="1.2rem"
+                                class="resultsIcon" />
+
+                            <Title
+                                id="resultTitle"
+                                text="Work Orders"
+                                level="H3"
+                                class="resultTitle" />
+
+                        </HBox>
+
+                        <ObjectStatus
+                            id="resultCount"
+                            text="{= ${/workOrders}.length + ' result(s)' }"
+                            state="Information" />
+
+                    </HBox>
+
+
+                    <!-- Work Order Table -->
+
+                    <Table
+                        id="workOrderTable"
+                        items="{/workOrders}"
+                        class="workOrderTable"
+                        growing="true"
+                        growingThreshold="10"
+                        mode="None"
+                        width="100%">
+
+                        <columns>
+
+                            <!-- Work Order -->
+
+                            <Column width="12rem">
+                                <Text text="Work Order" />
+                            </Column>
+
+                            <!-- Status -->
+
+                            <Column width="8rem">
+                                <Text text="Status" />
+                            </Column>
+
+                            <!-- Priority -->
+
+                            <Column width="8rem">
+                                <Text text="Priority" />
+                            </Column>
+
+                            <!-- Category -->
+
+                            <Column width="10rem">
+                                <Text text="Category" />
+                            </Column>
+
+                            <!-- Technician -->
+
+                            <Column width="10rem">
+                                <Text text="Technician" />
+                            </Column>
+
+                            <!-- Due Date -->
+
+                            <Column width="10rem">
+                                <Text text="Due Date" />
+                            </Column>
+
+                        </columns>
+
+
+                        <items>
+
+                            <ColumnListItem
+                                type="Active"
+                                press=".onWorkOrderPress">
+
+                                <!-- Work Order -->
+
+                                <VBox>
+
+                                    <Text
+                                        text="{title}"
+                                        class="workOrderTitle"
+                                        wrapping="true" />
+
+                                    <Text
+                                        text="{ID}"
+                                        class="workOrderId" />
+
+                                </VBox>
+
+
+                                <!-- Status -->
+
+                                <ObjectStatus
+                                    text="{status}"
+                                    state="{= ${status} === 'OPEN'
+                                        ? 'Warning'
+                                        : ${status} === 'IN_PROGRESS'
+                                        ? 'Information'
+                                        : 'Success' }" />
+
+
+                                <!-- Priority -->
+
+                                <ObjectStatus
+                                    text="{priority}"
+                                    state="{= ${priority} === 'HIGH'
+                                        ? 'Error'
+                                        : ${priority} === 'MEDIUM'
+                                        ? 'Warning'
+                                        : 'None' }" />
+
+
+                                <!-- Category -->
+
+                                <Text
+                                    text="{category}"
+                                    wrapping="true" />
+
+
+                                <!-- Technician -->
+
+                                <Text
+                                    text="{technician}"
+                                    wrapping="true" />
+
+
+                                <!-- Due Date -->
+
+                                <Text
+                                    text="{dueDate}"
+                                    wrapping="true" />
+
+                            </ColumnListItem>
+
+                        </items>
+
+                    </Table>
+
+                </VBox>
+
+
+                <!-- ================================================= -->
+                <!-- SUGGESTED QUESTIONS -->
+                <!-- ================================================= -->
+
+                <VBox
+                    id="suggestionsBox"
+                    class="suggestionsBox"
+                    width="100%">
+
+                    <Text
+                        text="Try asking"
+                        class="suggestionsTitle" />
+
+                    <HBox
+                        class="suggestionsContainer"
+                        wrap="Wrap">
+
+                        <Button
+                            text="Show open work orders"
+                            icon="sap-icon://list"
+                            press=".onSuggestionPress"
+                            class="suggestionButton" />
+
+                        <Button
+                            text="High priority work orders"
+                            icon="sap-icon://alert"
+                            press=".onSuggestionPress"
+                            class="suggestionButton" />
+
+                        <Button
+                            text="Show overdue work orders"
+                            icon="sap-icon://lateness"
+                            press=".onSuggestionPress"
+                            class="suggestionButton" />
+
+                        <Button
+                            text="Work orders due soon"
+                            icon="sap-icon://date-time"
+                            press=".onSuggestionPress"
+                            class="suggestionButton" />
+
+                    </HBox>
+
+                </VBox>
+
+            </VBox>
+
+        </content>
+
+
+        <!-- ================================================= -->
+        <!-- CHAT INPUT FOOTER -->
+        <!-- ================================================= -->
+
+        <footer>
+
+            <Toolbar
+                class="chatToolbar">
+
+                <Input
+                    id="questionInput"
+                    placeholder="Ask about your Work Orders..."
+                    value=""
+                    width="100%"
+                    class="chatInput"
+                    submit=".onAsk" />
+
+                <Button
+                    id="sendButton"
+                    icon="sap-icon://paper-plane"
+                    tooltip="Ask"
+                    type="Emphasized"
+                    press=".onAsk"
+                    class="sendButton" />
+
+            </Toolbar>
+
+        </footer>
+
+    </Page>
+
+</mvc:View>
